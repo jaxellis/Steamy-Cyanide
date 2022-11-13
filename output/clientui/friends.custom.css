@@ -1,0 +1,83 @@
+/* Base Theme */
+@import url(https://raw.githubusercontent.com/jaxellis/Steamy-Cyanide/main/web-hosted/friends-theme.css);
+
+/* Customizable Settings
+
+Use RGB Values for colors 
+https://www.w3schools.com/colors/colors_picker.asp
+
+*/
+:root {
+	--avatar-radius: 33%;
+	--avatar-border: 0;
+	--padding: 4px;
+	--padding-sm: 2px;
+	--padding-lg: 8px;
+	--padding-xl: 16px;
+	--version: 0.0.1;
+
+    /* USE RGB COLOR VALUES BELOW */
+
+        
+	--unreadmessage: 8, 127, 35;
+	--nickname: 173, 181, 189;
+
+    /* Friends List Background Color */
+    --friendlist: 0, 0, 0;
+
+    /* Header/Footer, Settings Foreground color */
+	--header: 10, 10, 10;
+	--footer: var(--header);
+
+    /* Text Color */
+	--text: 0, 255, 255;
+	--listtext: 0, 255, 255;
+
+    /* Icon background Color */
+	--icon: 0, 255, 255;
+	--iconhover: 0, 230, 230;
+
+    /* Title Icon background Color */
+	--titleiconbg: 0, 255, 255;
+	--titleiconhover: var(--iconhover);
+
+    /* Active In-game Friend Text Color */
+	--ingame: 100, 220, 0;
+
+    /* Online Friend Text Color */
+	--online: 88, 200, 255;
+
+    /* Away Friend Text Color */
+	--away: 255, 180, 50;
+	--away-in-game: var(--away);
+
+    /* Watching Broadcast Text Color */
+	--watching: 149, 117, 205;
+
+    /* Offline Friend Text Color */
+	--offline: 145, 145, 145;
+
+    /* Active Button Background Color */
+	--button-on: 0, 230, 230;
+
+    /* Active Button Text Color */
+	--button-on-text: 0, 0, 0;
+
+    /* Inactive Button Background Color */
+	--button-off: 15, 15, 15;
+
+    /* Scrollbar Color */
+	--scrollbar-primary: 0, 230, 230;
+
+    /* Scrollbar Color on Hover*/
+	--scrollbar-primary-hover: 0, 255, 255;
+
+	--scrollbar-secondary: var(--scrollbar-primary);
+	--scrollbar-secondary-hover: var(--scrollbar-primary-hover);
+
+    /* Close Button Background Color */
+	--close-button: 0, 255, 255;
+
+    /* Close Icon Background Color on Hover */
+	--close-icon-hover: 0, 0, 0;
+}

@@ -1,0 +1,13 @@
+/* Base Theme */
+@import url(https://raw.githubusercontent.com/jaxellis/Steamy-Cyanide/main/web-hosted/offline-friends-theme.css);
+
+/* Customizable Values */
+:root {
+	--avatar-radius: 33%;
+	--avatar-border: 0;
+	--padding: 4px;
+	--padding-sm: 2px;
+	--padding-lg: 8px;
+	--padding-xl: 16px;
+	--version: 0.1;
+}
