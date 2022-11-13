@@ -294,8 +294,20 @@
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
 	margin-bottom: 0 !important;
 }
+
+/* Button Toolbar */
+.appdetailssection_Body_5uvIN.appdetailsprimarylinkssection_LinksSectionBody_25f0f {
+	background-color: var(--background-lighter) !important;
+	border-radius: var(--Corner2);
+}
+
+.appdetailsprimarylinkssection_Anchor_DY4_w.appdetailsprimarylinkssection_Link_1b6LY {
+	background-color: var(--background-color) !important;
+}
 .appdetailsprimarylinkssection_Link_1b6LY:hover {
 	box-shadow: 0 0 0 2px var(--yourcolor) inset !important;
+	transition: all 0.2s ease-out !important;
+	border-radius: var(--Corner1);
 }
 
 /* Removes Image Blur */
@@ -463,9 +475,15 @@
 	stroke: var(--background-color) !important;
 	fill: var(--background-color) !important;
 }
-.appactionbutton_PlayButton_3ydig.appactionbutton_ButtonText_33cnX {
+/* Play Button Text */
+.appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
 	color: var(--background-color);
 	font-weight: 400;
+}
+
+/* Menu Buttons*/
+.appdetailsplaysection_MenuButton_3qDWQ {
+	background-color: var(--background-lighter);
 }
 .appdetailsplaysection_DetailsProgressContainer_25YVD
 	.appdetailsplaysection_DetailsProgressBar_1FnTq {
