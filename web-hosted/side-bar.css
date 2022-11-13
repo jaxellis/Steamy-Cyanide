@@ -213,16 +213,17 @@
 .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
 	background-color: var(--gamelist) !important;
 	transition: 0s !important;
+	color: var(--BackgroundColor) !important;
 }
 
 /* Sidebar Game Name Selected */
 .gamelistentry_Selected_1UBpA {
 	background-color: var(--gamelist) !important;
-	color: var(--white) !important;
+	color: var(--BackgroundColor) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
-	color: var(--white) !important;
+	color: var(--BackgroundColor) !important;
 }
 
 .gamelistentry_Container_2-O4Z
