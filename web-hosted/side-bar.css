@@ -108,6 +108,13 @@
 	margin-left: 10px;
 }
 
+.gamelistsearchbar_Container_20QAC
+	.gamelistsearchbar_AdvancedSearchContainer_vCCmY
+	.gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
+	.gamelistsearchbar_AdvancedSearchPane_Woh0k {
+	left: 32px !important;
+}
+
 /* Sidebar Searchbar Color */
 .gamelistsearchbar_Container_20QAC
 	.gamelistsearchbar_SearchInput_12vo5
@@ -301,6 +308,14 @@
 	background-color: var(--searchfiltermenu) !important;
 	box-shadow: 1px 1px 5px 1px var(--background-lighter) !important;
 	margin-left: 10px !important;
+}
+
+.gamelistsearchbar_Container_20QAC
+	.gamelistsearchbar_AdvancedSearchContainer_vCCmY
+	.gamelistsearchbar_AdvancedSearchButton_1TxHd
+	svg
+	path {
+	fill: var(--background-color) !important;
 }
 
 .gamelisthome_Label_3O48L {

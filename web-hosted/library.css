@@ -156,13 +156,6 @@
 	color: var(--textcolor) !important;
 }
 
-.gamelistsearchbar_Container_20QAC
-	.gamelistsearchbar_AdvancedSearchContainer_vCCmY
-	.gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM
-	.gamelistsearchbar_AdvancedSearchPane_Woh0k {
-	left: 32px !important;
-}
-
 /* Move Shelf Around Line Color */
 .libraryhomeshowcases_ShowcaseHeader_23Snl
 	.libraryhomeshowcases_PostDropdownRule_NR6cm,
@@ -239,7 +232,15 @@
 
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4)
 	.SVGIcon_Play {
-	fill: white !important;
+	fill: var(--background-color) !important;
+}
+.libraryhomeshowcases_PageLeft_3uMa3
+	.libraryhomeshowcases_Disabled_1MNhU
+	> .SVGIcon_Button {
+	fill: var(--yourcolordarker);
+}
+.libraryhomeshowcases_PageRight_2kWWy > .SVGIcon_Button {
+	fill: var(--yourcolor) !important;
 }
 
 /* What's New Section Image Roundness */
@@ -252,7 +253,10 @@
 .libraryhomenewupdates_GameIconAndName_3_xMy {
 	background-color: var(--buttonbg1) !important;
 	border-radius: var(--Corner0) !important;
+}
+.libraryhomenewupdates_GameIconAndName_3_xMy.libraryhomenewupdates_GameName_28Iqr {
 	color: var(--buttontextcolor) !important;
+	font-weight: 400;
 }
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
@@ -267,6 +271,9 @@
 	.DialogDropDown_CurrentDisplay,
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_Arrow {
 	background-color: var(--buttonbg1) !important;
+}
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
+	color: var(--background-color) !important;
 }
 
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
