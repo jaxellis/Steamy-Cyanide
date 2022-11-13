@@ -79,7 +79,7 @@
 	--gamelist: var(--yourcolordarker);
 
 	/* Filter dropdown menu color */
-	--menudrop: var(--background-color);
+	--menudrop: var(--background-lighter);
 
 	/* Title hover background color */
 	--titlehover: var(--darkgrey);
