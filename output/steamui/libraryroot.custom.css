@@ -1,3 +1,21 @@
+/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/game-page.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/library.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/mini-profile.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/side-bar.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/scrollbar.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/properties.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/music-library.css');
+@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/downloads.css');
+
+* {
+	/* Disable Shadows & Transitions */
+	transition: 0s !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
+
 /* MODIFICATIONS DOWN BELOW */
 
 :root {
@@ -286,21 +304,3 @@
 	/* Set to [ none | flex ] */
 	--hidedlgraph: none !important;
 }
-
-/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/game-page.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/library.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/mini-profile.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/side-bar.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/scrollbar.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/properties.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/music-library.css');
-@import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/downloads.css');
-
-* {
-	/* Disable Shadows & Transitions */
-	transition: 0s !important;
-	-webkit-box-shadow: none !important;
-	box-shadow: none !important;
-}
-/* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
