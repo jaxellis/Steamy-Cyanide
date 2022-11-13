@@ -214,16 +214,19 @@
 	background-color: var(--gamelist) !important;
 	transition: 0s !important;
 	color: var(--background-color) !important;
+	font-weight: 500;
 }
 
 /* Sidebar Game Name Selected */
 .gamelistentry_Selected_1UBpA {
 	background-color: var(--gamelist) !important;
 	color: var(--background-color) !important;
+	font-weight: 500;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp {
 	color: var(--background-color) !important;
+	font-weight: 500;
 }
 
 .gamelistentry_Container_2-O4Z

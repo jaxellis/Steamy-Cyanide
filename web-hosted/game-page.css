@@ -294,6 +294,9 @@
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
 	margin-bottom: 0 !important;
 }
+.appdetailsprimarylinkssection_Link_1b6LY:hover {
+	box-shadow: 0 0 0 2px var(--yourcolor) inset !important;
+}
 
 /* Removes Image Blur */
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
@@ -401,11 +404,11 @@
 	> .appactionbutton_Green_3cI5T
 	> .appactionbutton_ButtonChild_2AzIX:hover
 	svg {
-	fill: white !important;
+	fill: var(--background-color) !important;
 }
 
 .appactionbutton_Green_3cI5T > .appactionbutton_ButtonChild_2AzIX svg {
-	fill: white !important;
+	fill: var(--background-color) !important;
 }
 
 .appactionbutton_ButtonChild_2AzIX {
@@ -439,14 +442,14 @@
 }
 
 :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
-	fill: white !important;
+	fill: var(--background-color) !important;
 }
 
 :not(.appactionbutton_Disabled_1Pb6P)
 	> .appactionbutton_ButtonChild_2AzIX
 	svg
 	path {
-	stroke: white !important;
+	stroke: var(--background-color) !important;
 }
 
 :not(.appactionbutton_Disabled_1Pb6P)
@@ -457,10 +460,13 @@
 	> .appactionbutton_ButtonChild_2AzIX
 	svg
 	polygon {
-	stroke: white !important;
-	fill: white !important;
+	stroke: var(--background-color) !important;
+	fill: var(--background-color) !important;
 }
-
+.appactionbutton_PlayButton_3ydig.appactionbutton_ButtonText_33cnX {
+	color: var(--background-color);
+	font-weight: 400;
+}
 .appdetailsplaysection_DetailsProgressContainer_25YVD
 	.appdetailsplaysection_DetailsProgressBar_1FnTq {
 	background-color: var(--progressbar) !important;

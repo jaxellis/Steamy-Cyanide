@@ -70,10 +70,13 @@
 /* Background All Buttons */
 button.DialogButton {
 	background: var(--buttonbg2) !important;
+	color: var(--background-color) !important;
+	font-weight: 500;
 }
 
 button.DialogButton:not(disabled):hover {
 	background: var(--libraryhome) !important;
+	color: var(--background-lighter) !important;
 }
 
 /* CONTROLLER */
