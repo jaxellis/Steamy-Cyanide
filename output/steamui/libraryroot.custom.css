@@ -135,8 +135,8 @@
 	/* Library category dropdown menu color */
 	--dropdownbg: var(--background-color);
 
-	/* Checkbox color */
-	--checkbox: var(--yourcolor);
+	/* Checkbox Background color */
+	--checkbox: var(--background-color);
 
 	/* Music library background color */
 	--musicbg: var(--background-lighter);
