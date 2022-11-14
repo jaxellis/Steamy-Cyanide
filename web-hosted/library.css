@@ -261,11 +261,8 @@
 	fill: var(--background-color) !important;
 }
 
-/* Download Icon in Square */
-.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2.appportrait_Download_3yGiL
-	> .SVGIcon_Button.SVGIcon_Download
-	> g
-	> * {
+/* Download & Exit Icon in Square */
+.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 > .SVGIcon_Button * {
 	stroke: var(--background-color) !important;
 }
 
