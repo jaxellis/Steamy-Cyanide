@@ -48,10 +48,13 @@
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
 	background-color: var(--invisiblegrey) !important;
 }
+
 /* Download Button for Uninstalled Games */
 .appportrait_UninstalledIcon_8YrRm.Focusable
-	> svg.SVGIcon_Button.SVGIcon_Download {
-	fill: var(--yourcolor);
+	> svg.SVGIcon_Button.SVGIcon_Download
+	> g
+	> * {
+	stroke: var(--yourcolor);
 }
 
 .appportrait_LibraryItemBoxShine_MyNb5 {
