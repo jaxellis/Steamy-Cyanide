@@ -88,7 +88,7 @@
 	--titlenamehover: var(--yourcolor);
 
 	/* Game hover color */
-	--gamehover: var(--white);
+	--gamehover: var(--background-color);
 
 	/* Text color */
 	--textcolor: var(--yourcolor);

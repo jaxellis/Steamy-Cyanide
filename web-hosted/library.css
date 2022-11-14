@@ -254,7 +254,8 @@
 	background-color: var(--buttonbg1) !important;
 	border-radius: var(--Corner0) !important;
 }
-.libraryhomenewupdates_GameIconAndName_3_xMy.libraryhomenewupdates_GameName_28Iqr {
+.libraryhomenewupdates_GameIconAndName_3_xMy
+	.libraryhomenewupdates_GameName_28Iqr {
 	color: var(--buttontextcolor) !important;
 	font-weight: 400;
 }
