@@ -48,6 +48,7 @@
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
 	background-color: var(--invisiblegrey) !important;
 }
+/* Download Button for Uninstalled Games */
 .appportrait_UninstalledIcon_8YrRm.Focusable
 	> svg.SVGIcon_Button.SVGIcon_Download {
 	fill: var(--yourcolor);
@@ -249,10 +250,14 @@
 }
 .libraryhomeshowcases_PageLeft_3uMa3
 	.libraryhomeshowcases_Disabled_1MNhU
-	> .SVGIcon_Button {
+	> .SVGIcon_Button.SVGIcon_DoubleArrow,
+.libraryhomeshowcases_PageRight_2kWWy
+	.libraryhomeshowcases_Disabled_1MNhU
+	> .SVGIcon_Button.SVGIcon_DoubleArrow {
 	fill: var(--yourcolordarker);
 }
-.libraryhomeshowcases_PageRight_2kWWy > .SVGIcon_Button {
+.libraryhomeshowcases_PageRight_2kWWy > .SVGIcon_Button.SVGIcon_DoubleArrow,
+.libraryhomeshowcases_PageLeft_3uMa3 > .SVGIcon_Button.SVGIcon_DoubleArrow {
 	fill: var(--yourcolor) !important;
 }
 
