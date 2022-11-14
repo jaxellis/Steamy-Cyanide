@@ -270,12 +270,16 @@
 }
 
 /* Inactive Right & Left Arrows */
-.libraryhomeshowcases_PageLeft_3uMa3
-	.libraryhomeshowcases_Disabled_1MNhU
+.libraryhomeshowcases_PageLeft_3uMa3.libraryhomeshowcases_Disabled_1MNhU
 	> .SVGIcon_Button.SVGIcon_DoubleArrow
 	> .Arrow1,
-.libraryhomeshowcases_PageRight_2kWWy
-	.libraryhomeshowcases_Disabled_1MNhU
+.libraryhomeshowcases_PageRight_2kWWy.libraryhomeshowcases_Disabled_1MNhU
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1,
+.pageablecontainer_PageLeft_1TMDJ.pageablecontainer_Disabled_3llJG
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1,
+.pageablecontainer_PageRight_2qGnL.pageablecontainer_Disabled_3llJG
 	> .SVGIcon_Button.SVGIcon_DoubleArrow
 	> .Arrow1 {
 	stroke: var(--yourcolordarker) !important;
