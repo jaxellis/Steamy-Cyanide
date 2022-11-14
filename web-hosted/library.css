@@ -48,11 +48,22 @@
 .appportrait_UninstalledBar_kX-tI.appportrait_BarDownloading_3BNwj {
 	background-color: var(--invisiblegrey) !important;
 }
+.appportrait_UninstalledIcon_8YrRm.Focusable
+	> svg.SVGIcon_Button.SVGIcon_Download {
+	fill: var(--yourcolor);
+}
 
 .appportrait_LibraryItemBoxShine_MyNb5 {
 	transition-property: transform, opacity !important;
 	transition-duration: 0.6s !important;
 	display: var(--CoverHover) !important;
+}
+
+/* Header "New To Library" */
+.appportrait_AppPortraitBanner_N8aJr {
+	background-color: var(--yourcolor);
+	color: var(--background-color);
+	border-radius: var(--Corner1);
 }
 
 /* Removes the divider line in Collections */
