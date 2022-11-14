@@ -242,23 +242,35 @@
 	border-color: white !important;
 }
 
+/* Play and Downlod Icon in Square */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4)
 	.SVGIcon_Play,
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2.appportrait_Download_3yGiL
-	> .SVGIcon_Button {
+	> .SVGIcon_Button.SVGIcon_Download
+	> * {
 	fill: var(--background-color) !important;
 }
+
+/* Inactive Right & Left Arrows */
 .libraryhomeshowcases_PageLeft_3uMa3
 	.libraryhomeshowcases_Disabled_1MNhU
-	> .SVGIcon_Button.SVGIcon_DoubleArrow,
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1,
 .libraryhomeshowcases_PageRight_2kWWy
 	.libraryhomeshowcases_Disabled_1MNhU
-	> .SVGIcon_Button.SVGIcon_DoubleArrow {
-	fill: var(--yourcolordarker);
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1 {
+	stroke: var(--yourcolordarker);
 }
-.libraryhomeshowcases_PageRight_2kWWy > .SVGIcon_Button.SVGIcon_DoubleArrow,
-.libraryhomeshowcases_PageLeft_3uMa3 > .SVGIcon_Button.SVGIcon_DoubleArrow {
-	fill: var(--yourcolor) !important;
+
+/* Active Right & Left Arrows */
+.libraryhomeshowcases_PageRight_2kWWy
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1,
+.libraryhomeshowcases_PageLeft_3uMa3
+	> .SVGIcon_Button.SVGIcon_DoubleArrow
+	> .Arrow1 {
+	stroke: var(--yourcolor) !important;
 }
 
 /* What's New Section Image Roundness */
