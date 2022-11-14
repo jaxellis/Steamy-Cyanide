@@ -185,7 +185,7 @@
 .libraryhomeshowcases_ShowcaseHeader_23Snl
 	.libraryhomeshowcases_Collapser_3sz4L:hover
 	polyline {
-	stroke: var(--yourcolor);
+	stroke: var(--yourcolor) !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -255,13 +255,18 @@
 	border-color: white !important;
 }
 
-/* Play and Downlod Icon in Square */
+/* Play Icon in Square */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4)
-	.SVGIcon_Play,
+	.SVGIcon_Play {
+	fill: var(--background-color) !important;
+}
+
+/* Download Icon in Square */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2.appportrait_Download_3yGiL
 	> .SVGIcon_Button.SVGIcon_Download
+	> g
 	> * {
-	fill: var(--background-color) !important;
+	stroke: var(--background-color) !important;
 }
 
 /* Inactive Right & Left Arrows */
@@ -273,7 +278,7 @@
 	.libraryhomeshowcases_Disabled_1MNhU
 	> .SVGIcon_Button.SVGIcon_DoubleArrow
 	> .Arrow1 {
-	stroke: var(--yourcolordarker);
+	stroke: var(--yourcolordarker) !important;
 }
 
 /* Active Right & Left Arrows */
@@ -318,7 +323,7 @@
 }
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer {
 	color: var(--background-color) !important;
-	font-weight: bold;
+	font-weight: bold !important;
 }
 .appgrid_SortingDropDown_1tBzy
 	._DialogInputContainer
