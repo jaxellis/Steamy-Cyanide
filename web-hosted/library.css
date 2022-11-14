@@ -178,6 +178,16 @@
 	background-color: transparent !important;
 }
 
+/* Expand/Collapse Library */
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+	.libraryhomeshowcases_Collapser_3sz4L
+	polyline,
+.libraryhomeshowcases_ShowcaseHeader_23Snl
+	.libraryhomeshowcases_Collapser_3sz4L:hover
+	polyline {
+	stroke: var(--yourcolor);
+}
+
 .libraryhomeshowcases_ShowcaseHeader_23Snl
 	.libraryhomeshowcases_DragHandle_1OGfH {
 	stroke: transparent !important;
