@@ -468,7 +468,7 @@
 
 /* Play Button Text */
 .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
-	color: var(--background-color);
+	color: var(--background-color) !important;
 	font-weight: 400;
 }
 
