@@ -255,14 +255,16 @@
 	border-color: white !important;
 }
 
-/* Play Icon in Square */
+/* Play & Pause Icon in Square */
 .appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4)
-	.SVGIcon_Play {
+	.SVGIcon_Button {
 	fill: var(--background-color) !important;
 }
 
 /* Download & Exit Icon in Square */
-.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 > .SVGIcon_Button * {
+.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2
+	> .SVGIcon_Button
+	* {
 	stroke: var(--background-color) !important;
 }
 
