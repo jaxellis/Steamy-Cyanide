@@ -453,25 +453,17 @@
 		100% !important;
 }
 
+/* Play Button Icon */
 :not(.appactionbutton_Disabled_1Pb6P) > .appactionbutton_ButtonChild_2AzIX svg {
 	fill: var(--background-color) !important;
 }
 
-:not(.appactionbutton_Disabled_1Pb6P)
-	> .appactionbutton_ButtonChild_2AzIX
-	svg
-	path {
-	stroke: var(--background-color) !important;
-}
-
-/* Download/Play Button Icon */
+/* Download/Exit Button Icon */
 :not(.appactionbutton_Disabled_1Pb6P)
 	> .appactionbutton_ButtonChild_2AzIX
 	.SVGIcon_Button
-	> g
 	* {
 	stroke: var(--background-color) !important;
-	fill: var(--background-color) !important;
 }
 
 /* Play Button Text */
