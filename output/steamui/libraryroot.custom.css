@@ -299,8 +299,8 @@
 	/******************************/
 	/* Remove the Dropdown button next to play */
 	/* Set to [ none | flex ] */
-	--hidedlimage: none !important;
+	--hidedlimage: flex !important;
 
 	/* Set to [ none | flex ] */
-	--hidedlgraph: none !important;
+	--hidedlgraph: flex !important;
 }
