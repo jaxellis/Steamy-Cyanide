@@ -464,17 +464,16 @@
 	stroke: var(--background-color) !important;
 }
 
+/* Download/Play Button Icon */
 :not(.appactionbutton_Disabled_1Pb6P)
 	> .appactionbutton_ButtonChild_2AzIX
-	svg
-	line,
-:not(.appactionbutton_Disabled_1Pb6P)
-	> .appactionbutton_ButtonChild_2AzIX
-	svg
-	polygon {
+	.SVGIcon_Button
+	> g
+	* {
 	stroke: var(--background-color) !important;
 	fill: var(--background-color) !important;
 }
+
 /* Play Button Text */
 .appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
 	color: var(--background-color);
