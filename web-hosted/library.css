@@ -256,7 +256,7 @@
 }
 
 /* Play & Pause Icon in Square */
-.appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4)
+.appportrait_LibraryItemActionButton_3AjoL:not(.appportrait_Disabled_1aml4)
 	.SVGIcon_Button {
 	fill: var(--background-color) !important;
 }
