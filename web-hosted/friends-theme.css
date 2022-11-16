@@ -1655,7 +1655,15 @@
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 /* Signed Out */
-.chat_main,
-.friends_loading_error .friendlist {
-	background: unset !important;
+.friends_loading_error .FriendsFailureContainer {
+	background-color: rgb(var(--friendlist)) !important;
+}
+.friends_loading_error .currentUserContainer {
+	background-color: rgb(var(--header)) !important;
+}
+.chat_main.friends_loading_error {
+	background-color: rgb(var(--footer)) !important;
+}
+.friends_loading_error .currentUserContainer .labelHolder {
+	color: rgb(var(--offline)) !important;
 }
