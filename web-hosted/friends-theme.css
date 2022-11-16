@@ -1657,5 +1657,5 @@
 /* Signed Out */
 .chat_main,
 .friends_loading_error .friendlist {
-	background-color: unset !important;
+	background: unset !important;
 }
