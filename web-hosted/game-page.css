@@ -574,7 +574,7 @@
 }
 
 /* Play Button Text */
-[class*='appactionbutton_PlayButton_'][class*='appactionbutton_ButtonText_'] {
+[class*='appactionbutton_PlayButton_'] [class*='appactionbutton_ButtonText_'] {
 	color: var(--background-color) !important;
 	font-weight: 400;
 }
