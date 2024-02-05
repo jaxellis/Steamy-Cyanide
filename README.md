@@ -7,7 +7,7 @@ Cyan &amp; Amoled Steam Skin
 
 ## Credits:
 [Steam Library by AikoMidori](https://github.com/AikoMidori/steam-library)<br>
-[Metro for Steam](https://metroforsteam.com/)<br>
+MetroforSteam (No Longer Avaliable)<br>
 [UPMetroSkin by redsigma](https://github.com/redsigma/UPMetroSkin)<br>
 [Steam Dark Mode by AikoMidori](https://github.com/AikoMidori/steam-dark-mode)<br>
 [Steam Chat Skin by LazerFlash](https://github.com/LaserFlash/steam-chat-skin)
