@@ -321,10 +321,13 @@
 	margin-top: -6px !important;
 }
 .friendsui-container .friendGroup .groupName .groupCount {
-	display: none !important;
+	color: var(--text);
 }
 .friendsui-container .ExpandPlusMinus {
-	display: none !important;
+	opacity: 1;
+}
+.friendsui-container .ExpandPlusMinus * {
+	stroke: rgb(var(--icon));
 }
 .friendsui-container .gameGroupContainer {
 	margin-right: 0 !important;
