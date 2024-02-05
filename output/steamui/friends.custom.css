@@ -1,4 +1,6 @@
-/* Base Theme */
+/* Base Theme
+TODO! Fix game/category header
+*/
 @import url('https://jaxellis.github.io/Steamy-Cyanide/web-hosted/friends-theme.min.css');
 
 /* Customizable Settings
@@ -7,15 +9,7 @@ Use RGB Values for colors
 https://www.w3schools.com/colors/colors_picker.asp
 
 */
-:root {
-	--avatar-radius: 33%;
-	--avatar-border: 0;
-	--padding: 4px;
-	--padding-sm: 2px;
-	--padding-lg: 8px;
-	--padding-xl: 16px;
-	--version: 0.0.1;
-
+.friendsui-container {
 	/* USE RGB COLOR VALUES BELOW */
 
 	--unreadmessage: 8, 127, 35;
@@ -36,10 +30,6 @@ https://www.w3schools.com/colors/colors_picker.asp
 	--icon: 0, 255, 255;
 	--iconhover: 210, 210, 210;
 
-	/* Title Icon background Color */
-	--titleiconbg: 0, 255, 255;
-	--titleiconhover: 0, 0, 0;
-
 	/* Active In-game Friend Text Color */
 	--ingame: 100, 220, 0;
 
@@ -59,9 +49,6 @@ https://www.w3schools.com/colors/colors_picker.asp
 	/* Active Button Background Color */
 	--button-on: 0, 230, 230;
 
-	/* Active Button Text Color */
-	--button-on-text: 0, 0, 0;
-
 	/* Inactive Button Background Color */
 	--button-off: 15, 15, 15;
 
@@ -73,4 +60,10 @@ https://www.w3schools.com/colors/colors_picker.asp
 
 	--scrollbar-secondary: var(--scrollbar-primary);
 	--scrollbar-secondary-hover: var(--scrollbar-primary-hover);
+	/* TODO! Comment these vars */
+	--window-control-icon-color: var(--icon);
+	--window-control-icon-color-hover: var(--iconhover);
+	--window-control-bg-color-hover: #343a40;
+	--window-control-exit-bg-color-hover: #f04747;
+	--window-control-exit-icon-color-hover: #fff;
 }
