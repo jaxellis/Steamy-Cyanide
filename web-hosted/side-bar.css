@@ -84,9 +84,11 @@
 	color: var(--titlenamehover) !important;
 }
 
-/* Game Page Header Background */
+/*	Game Page Header Background 
+	Library Updates News Background
+*/
 [class*='libraryhome_UpdatesContainer_'] {
-	background: var(--darkgrey) !important;
+	background: var(--librarybg) !important;
 }
 
 /* Removes Sidebar Divider */
