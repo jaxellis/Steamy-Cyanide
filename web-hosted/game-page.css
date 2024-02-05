@@ -577,6 +577,11 @@
 	border-radius: var(--Corner1) !important;
 }
 
+/* Fix Friends Game Overflow */
+.appdetailsfriendssection_AvatarAndLabel_1GCZA {
+	overflow: unset !important;
+}
+
 /* DLC Images Corners */
 .libraryassetimage_LandscapeImage_ZsU8n .libraryassetimage_Image_24_Au,
 .appdetailsdlcsection_DLCArt_2bF7X .appdetailsdlcsection_Gloss_HAvWs {
