@@ -97,6 +97,10 @@
 	min-width: 1px !important;
 	width: 1px !important;
 }
+/* Sidebar Searchbar Background */
+[class*='gamelistbar_Container_'] [class*='gamelistsearchbar_Container_'] {
+	background: var(--librarybg);
+}
 
 /* Sidebar Searchbar Filter Button */
 [class*='gamelistsearchbar_Container_']
