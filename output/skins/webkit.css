@@ -3226,13 +3226,13 @@ textarea.gray_bevel {
 	border-radius: var(--border0) !important;
 }
 .btn_grey_black.btn_active,
-btn_grey_black.active {
+.btn_grey_black.active {
 	text-decoration: none !important;
 	color: var(--white) !important;
 	border-radius: var(--border0) !important;
 }
 .btn_grey_black.btn_active > span,
-btn_grey_black.active > span {
+.btn_grey_black.active > span {
 	border-radius: var(--border0) !important;
 }
 .btn_small > span,
