@@ -546,7 +546,9 @@
 }
 .ChatMessageEntryVoice.Inactive .activeVoiceControls,
 .ChatTabContextMenuItem
-	[class*='personanameandstatus_richPresenceLabel']:not([class*='personanameandstatus_gameName']),
+	[class*='personanameandstatus_richPresenceLabel']:not(
+		[class*='personanameandstatus_gameName']
+	),
 .ChatTabsContextMenu [class*='friendsnooze_SnoozeContainer'],
 .FriendPicker_SuggestedFriend
 	[class*='personanameandstatus_richPresenceLabel']:not([class*='gameName']),
