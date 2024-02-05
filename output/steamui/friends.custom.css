@@ -9,9 +9,16 @@ Use RGB Values for colors
 https://www.w3schools.com/colors/colors_picker.asp
 
 */
-.friendsui-container {
-	/* USE RGB COLOR VALUES BELOW */
+:root {
+	--avatar-radius: 50%;
+	--avatar-border: 0;
+	--padding: 4px;
+	--padding-sm: 2px;
+	--padding-lg: 8px;
+	--padding-xl: 16px;
+	--version: 0.1;
 
+	/* USE RGB COLOR VALUES BELOW */
 	--unreadmessage: 8, 127, 35;
 	--nickname: 173, 181, 189;
 
@@ -60,10 +67,15 @@ https://www.w3schools.com/colors/colors_picker.asp
 
 	--scrollbar-secondary: var(--scrollbar-primary);
 	--scrollbar-secondary-hover: var(--scrollbar-primary-hover);
+
 	/* TODO! Comment these vars */
 	--window-control-icon-color: var(--icon);
 	--window-control-icon-color-hover: var(--iconhover);
-	--window-control-bg-color-hover: #343a40;
+	--window-control-bg-color: transparent;
+	--window-control-bg-color-hover: rgb(10, 10, 10);
+	--window-control-exit-bg-color: transparent;
 	--window-control-exit-bg-color-hover: #f04747;
-	--window-control-exit-icon-color-hover: #fff;
+	--window-control-exit-icon-color-hover: var(
+		--window-control-icon-color-hover
+	);
 }
