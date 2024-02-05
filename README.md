@@ -1,15 +1,13 @@
 # Steamy-Cyanide
+
 Cyan &amp; Amoled Steam Skin
 
-Pre-requisite:
-https://github.com/PhantomGamers/SFP/
+## Pre-requisite:
+[Steam Friends Patcher by PhantomGamers](https://github.com/PhantomGamers/SFP/)
 
-Credits:
-
-https://github.com/AikoMidori/steam-library
-
-https://metroforsteam.com/
-https://github.com/redsigma/UPMetroSkin
-https://github.com/AikoMidori/steam-dark-mode
-https://github.com/AikoMidori/steam-library
-https://github.com/LaserFlash/steam-chat-skin
+## Credits:
+[Steam Library by AikoMidori](https://github.com/AikoMidori/steam-library)<br>
+[Metro for Steam](https://metroforsteam.com/)<br>
+[UPMetroSkin by redsigma](https://github.com/redsigma/UPMetroSkin)<br>
+[Steam Dark Mode by AikoMidori](https://github.com/AikoMidori/steam-dark-mode)<br>
+[Steam Chat Skin by LazerFlash](https://github.com/LaserFlash/steam-chat-skin)
