@@ -41,10 +41,10 @@
 	--invisibleblack: rgba(0, 0, 0, 0);
 
 	/* Status Color */
-	--offlinegrey: rgb(145, 145, 145);
-	--ingamegreen: rgb(100, 220, 0);
-	--onlineblue: rgb(88, 200, 255);
-	--awayorange: rgba(255, 180, 50, 1);
+	--offline: rgb(145, 145, 145);
+	--ingame: rgb(100, 220, 0);
+	--online: rgb(88, 200, 255);
+	--snooze: rgba(255, 180, 50, 1);
 
 	/* Custom Color */
 	--yourcolor: rgba(0, 255, 255, 1);
@@ -58,6 +58,9 @@
 	--librarybg: var(--background-color);
 
 	/* Highlight library color */
+	--libraryhome: var(--yourcolor);
+
+	/* Highlight library color with opacity */
 	--libraryhome: var(--yourcolor);
 
 	/* Downloads page background color */
@@ -143,18 +146,6 @@
 
 	/* Music library list color */
 	--musiclist: var(--darkgrey);
-
-	/* Offline avatar color */
-	--offline: var(--offlinegrey);
-
-	/* In-game avatar color */
-	--ingame: var(--ingamegreen);
-
-	/* Online avatar color */
-	--online: var(--onlineblue);
-
-	/* Snooze avatar color */
-	--snooze: var(--awayorange);
 }
 
 :root {
@@ -188,7 +179,7 @@
 	--LetterSpacing: 3px !important;
 
 	/* Set your own library name */
-	--YourLibraryName: "Borath's Games" !important;
+	--YourLibraryName: 'YOUR LIBRARY' !important;
 
 	/* Button background color */
 	--BackgroundColor: transparent;
