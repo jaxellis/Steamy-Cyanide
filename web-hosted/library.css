@@ -290,6 +290,7 @@
 	> .SVGIcon_Button
 	* {
 	stroke: var(--background-color) !important;
+	fill: var(--background-color) !important;
 }
 
 /* Inactive Right & Left Arrows */

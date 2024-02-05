@@ -592,8 +592,8 @@
 	> [class*='appactionbutton_ButtonChild_']
 	svg
 	polygon {
-	stroke: white !important;
-	fill: white !important;
+	stroke: var(--background-color) !important;
+	fill: var(--background-color) !important;
 }
 
 [class*='appdetailsplaysection_DetailsProgressContainer_']
