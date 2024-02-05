@@ -562,14 +562,9 @@
 /* Play Button Icon */
 :not([class*='appactionbutton_Disabled_'])
 	> [class*='appactionbutton_ButtonChild_']
-	svg {
-	fill: var(--background-color) !important;
-}
-
-:not([class*='appactionbutton_Disabled_'])
-	> [class*='appactionbutton_ButtonChild_']
 	svg
 	path {
+	fill: var(--background-color) !important;
 	stroke: var(--background-color) !important;
 }
 
