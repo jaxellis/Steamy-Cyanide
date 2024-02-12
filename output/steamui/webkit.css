@@ -1,48 +1,8 @@
+/* Import Root Variables */
+@import url('config.css');
+
 * {
 	box-shadow: none !important;
-}
-
-:root {
-	/* Colors */
-	--trans: transparent;
-	--black: #000000;
-	--black-ish: #2a3f5a00;
-	--realblack: #101010;
-	--blacker-ish: #1b1b1b;
-	--blacker: #1c1c1c;
-	--lightblack: #121212;
-	--darkergrey: #151515;
-	--bedarkgrey: #161616;
-	--thegrey: #181818;
-	--begrey: #262627;
-	--littlegrey: #282828;
-	--darkgrey: #1e1e1f;
-	--lightergrey: #353535;
-	--grey-ish: #454545;
-	--dakerwhite: #b8b6b4;
-	--darkwhite: #d9dadd;
-	--darkblue: #0e5984;
-	--blu: #67c1f5;
-	--blue-ish: #7cbef8;
-	--blue-er: #a4d7f5;
-	--lightblue: #c4e4f2;
-	--darkgreen: #5c7e10;
-	--gold: #ffcc6a;
-	--bronze: #695833;
-
-	/* Profile Blur */
-	--blur: blur(10px); /* default 10px */
-
-	/* Round/Hard Edges */
-	--border0: 4px; /* default 4px */
-	--border1: 10px; /* default 10px */
-	--border2: 20px; /* default 20px */
-	--border25: 25px; /* default 25px */
-	--border35: 35px; /* default 35px */
-	--border4: 40px; /* default 40px */
-	--border5: 50px; /* default 50px */
-	--border8: 80px; /* default 80px */
-	--border50: 50%; /* default 50% */
 }
 
 /* Scrollbar */
