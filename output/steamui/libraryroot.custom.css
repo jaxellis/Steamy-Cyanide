@@ -61,9 +61,6 @@
 	/* Highlight library color */
 	--libraryhome: var(--yourcolor);
 
-	/* Highlight library color with opacity */
-	--libraryhome: var(--yourcolor);
-
 	/* Downloads page background color */
 	--downloadspagebg: var(--background-color);
 
