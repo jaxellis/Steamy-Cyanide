@@ -413,6 +413,7 @@
 	box-shadow: 0 0 0 2px var(--yourcolor) inset !important;
 	transition: all 0.2s ease-out !important;
 	border-radius: var(--Corner1);
+	background-color: var(--darkgrey) !important;
 }
 
 /* Removes Image Blur */
