@@ -6,8 +6,9 @@ Cyan &amp; Amoled Steam Skin
 [Steam Friends Patcher by PhantomGamers](https://github.com/PhantomGamers/SFP/)
 
 ## Installation:
+
 1. Install SFP from the link above.
-2. Copy the contents of the output directory in this repo to your Steam installation directory.
+2. Copy the steamui folder in this repo to your Steam installation directory.
 3. Make sure SFP is set to "Run on boot". SFP will auto patch the files into your Steam for ease of use.
 
 ## Credits:
