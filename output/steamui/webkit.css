@@ -6,12 +6,6 @@
 }
 
 /* Scrollbar */
-body::-webkit-scrollbar-thumb:window-inactive {
-	background-clip: padding-box !important;
-	-webkit-box-shadow: none !important;
-	background: transparent !important;
-	border-radius: var(--border1) !important;
-}
 body::-webkit-scrollbar-thumb {
 	background-clip: padding-box !important;
 	-webkit-box-shadow: none !important;
