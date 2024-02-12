@@ -37,6 +37,11 @@
 	color: var(--yourcolor);
 }
 
+/* Tab Context Menu */
+.ContextMenuPopupBody [class*='menu_MenuPopup_'] {
+	background-color: var(--background-lighter);
+}
+
 /* Bottom Bar */
 [class*='steamdesktop_OuterFrame_'] [class*='bottombar_BottomBar_'] {
 	background: var(--background-lighter);
