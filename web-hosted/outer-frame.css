@@ -14,7 +14,7 @@ ex. ContextMenuPopupBody
 	background: var(--background-lighter);
 }
 
-/* Hide URL replacement div in Library */
+/* Hidden URL replacement div in Library */
 [class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_URLBarReplacement_'] {
 	display: none;
 }
