@@ -56,6 +56,7 @@
 	)[class*='contextmenu_contextMenuItem_'][class*='contextmenu_active_'] {
 	background: var(--darkgrey) !important;
 	border-radius: var(--Corner0) !important;
+	color: var(--yourcolor);
 }
 [class*='appactivityday_event_'] {
 	color: var(--white) !important;
