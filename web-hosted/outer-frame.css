@@ -1,3 +1,14 @@
+/*
+For general reference, 
+everything in this should be prefixed with the OuterFrame class.
+ex. [style*='steamdesktop_OuterFrame_']
+
+Exceptions to this rule are for elements that "appear" in the OuterFrame,
+but have their own html tag. 
+or appear in the same html tag but are outside of the OuterFrame class
+ex. ContextMenuPopupBody
+*/
+
 /* Top Bar */
 [class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_TopBar_'] {
 	background: var(--background-lighter);
