@@ -19,6 +19,34 @@ ex. ContextMenuPopupBody
 	display: none;
 }
 
+/* URL bar in the Store */
+[class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_URLBar_'] {
+	background-color: var(--background-lighter);
+}
+[class*='steamdesktop_OuterFrame_']
+	[class*='steamdesktop_URLBar_']
+	[class*='steamdesktop_URLBarText_']:hover {
+	background-color: var(--darkgrey);
+}
+[class*='steamdesktop_OuterFrame_']
+	[class*='steamdesktop_URLBar_']
+	[class*='steamdesktop_URLBarText_']:hover
+	[class*='steamdesktop_URL_'] {
+	color: var(--yourcolor);
+}
+/* Refresh Icon */
+[class*='steamdesktop_OuterFrame_']
+	[class*='steamdesktop_URLBar_']
+	[class*='steamdesktop_StatusIcon_']:hover {
+	background-color: var(--darkgrey);
+}
+
+/* Copied popup */
+[class*='steamdesktop_URLBarCopied_'] {
+	background-color: var(--darkgrey);
+	color: var(--yourcolor);
+}
+
 /* Root Menu Top Bar Hover */
 [class*='steamdesktop_OuterFrame_']
 	[class*='steamdesktop_TopBar_']
