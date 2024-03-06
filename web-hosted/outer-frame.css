@@ -78,7 +78,7 @@ ex. ContextMenuPopupBody
 
 /* Tab Context Menu */
 .ContextMenuPopupBody [class*='contextmenu_contextMenu_'] {
-	min-width: none !important;
+	min-width: 0px !important;
 }
 
 .ContextMenuPopupBody [class*='menu_MenuPopup_'] {
