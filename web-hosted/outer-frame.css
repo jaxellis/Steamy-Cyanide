@@ -77,6 +77,10 @@ ex. ContextMenuPopupBody
 }
 
 /* Tab Context Menu */
+.ContextMenuPopupBody [class*='contextmenu_contextMenu_'] {
+	min-width: none !important;
+}
+
 .ContextMenuPopupBody [class*='menu_MenuPopup_'] {
 	background-color: var(--background-lighter);
 }
