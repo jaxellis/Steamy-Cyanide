@@ -305,13 +305,13 @@
 	--blur: blur(10px); /* default 10px */
 
 	/* Round/Hard Edges */
-	--border0: 4px; /* default 4px */
-	--border1: 10px; /* default 10px */
-	--border2: 20px; /* default 20px */
+	--border4: 4px; /* default 4px */
+	--border10: 10px; /* default 10px */
+	--border20: 20px; /* default 20px */
 	--border25: 25px; /* default 25px */
 	--border35: 35px; /* default 35px */
-	--border4: 40px; /* default 40px */
-	--border5: 50px; /* default 50px */
-	--border8: 80px; /* default 80px */
-	--border50: 50%; /* default 50% */
+	--border40: 40px; /* default 40px */
+	--border50: 50px; /* default 50px */
+	--border80: 80px; /* default 80px */
+	--border50p: 50%; /* default 50% */
 }
