@@ -382,7 +382,7 @@ body.v6 #footer {
 	background: var(--bedarkgrey) !important;
 }
 body.flat_page #footer {
-	background: var(--bedarkgrey) !important;
+	background: var(--realblack) !important;
 }
 div#global_header {
 	max-height: 74px !important;
@@ -1186,6 +1186,10 @@ body.v6 div#global_header .content {
 .community_home_shortcut_content {
 	background: var(--bedarkgrey) !important;
 }
+.apphub_sectionTab {
+	background: var(--realblack) !important;
+	border-radius: var(--border0) !important;
+}
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,
 .apphub_sectionTab.active > span {
 	border-radius: var(--border0) !important;
@@ -1246,7 +1250,7 @@ body.v6 div#global_header .content {
 	color: var(--white) !important;
 }
 .apphub_background {
-	background: var(--darkgrey) !important;
+	background: var(--black) !important;
 }
 .popup_block .popup_body {
 	background: var(--darkergrey) !important;
@@ -1326,6 +1330,7 @@ body.headerOverride {
 }
 .pagecontent {
 	background: var(--darkgrey) !important;
+	padding-bottom: 0px !important;
 }
 body.flat_page:not(.iframe) {
 	background: var(--darkgrey) !important;
@@ -1521,7 +1526,7 @@ div#headerSearch.friend_activity_header_search {
 	border: 0 !important;
 }
 .forumtopic_comments .commentthread_comment {
-	background-color: var(--bedarkgrey) !important;
+	background-color: var(--lightblack) !important;
 	color: var(--dakerwhite) !important;
 	margin-bottom: 2px !important;
 	padding: 12px 8px 20px 60px !important;
@@ -1529,15 +1534,12 @@ div#headerSearch.friend_activity_header_search {
 	overflow: hidden !important;
 	border-radius: var(--border0) !important;
 }
+a.forum_comment_action:hover {
+	background-color: var(--realblack) !important;
+}
 .forum_op {
-	position: relative !important;
-	padding: 7px 12px 21px 63px !important;
-	margin-bottom: 8px !important;
-	max-width: 565px !important;
-	background-color: var(--bedarkgrey) !important;
+	background-color: var(--realblack) !important;
 	background-image: none !important;
-	background-repeat: no-repeat !important;
-	background-position: top left !important;
 	border: 0 !important;
 	border-radius: var(--border0) !important;
 }
@@ -2363,8 +2365,7 @@ body.flat_page {
 }
 body.flat_page #footer_spacer,
 body.headerless_page #footer_spacer {
-	border-radius: var(--border0) !important;
-	background: var(--darkgrey) !important;
+	display: none !important;
 }
 .search_match_info {
 	border-radius: var(--border0) !important;
@@ -3131,10 +3132,16 @@ a.pagebtn {
 	border-radius: var(--border0) !important;
 }
 .forum_newtopic_header {
-	border-radius: var(--border0) !important;
+	border-top-left-radius: var(--border0) !important;
+	border-top-right-radius: var(--border0) !important;
+	margin-bottom: 0 !important;
+}
+.forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {
+	background-color: var(--realblack) !important;
 }
 .forum_newtopic_box {
-	border-radius: var(--border0) !important;
+	border-bottom-left-radius: var(--border0) !important;
+	border-bottom-right-radius: var(--border0) !important;
 }
 .commentthread_comment_edit_textarea_ctn,
 .gray_bevel,
@@ -3587,7 +3594,6 @@ a.games_list_tab.first_tab {
 }
 .maincontent {
 	background-image: none !important;
-	background-color: var(--darkgrey) !important;
 }
 .maincontent #topSummaryBoxContent {
 	background-color: var(--bedarkgrey) !important;
