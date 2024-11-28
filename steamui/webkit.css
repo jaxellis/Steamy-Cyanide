@@ -1032,10 +1032,10 @@ body.v6 .home_rightcol .tab_preview h2 {
 	background: var(--grey) !important;
 }
 .home_page_content .more_content_title span {
-	background: var(--trans) !important;
+	background: transparent !important;
 }
 .home_content.single a.screenshot {
-	background: var(--trans) !important;
+	background: transparent !important;
 }
 .curator_giant_capsule .curator_block {
 	background-color: var(--grey) !important;
