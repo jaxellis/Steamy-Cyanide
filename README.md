@@ -1,25 +1,71 @@
-# Steamy-Cyanide
+# 🖥️ Steamy-Cyanide
 
-Cyan &amp; Amoled Steam Skin
+**A Vibrant Cyan & Deep AMOLED Black Theme for Steam**  
+_Breathe new life into your Steam client with this electrifying cyberpunk-inspired visual experience_
 
-## Pre-requisite:
-[Steam Friends Patcher by PhantomGamers](https://github.com/PhantomGamers/SFP/)
+## ✨ Features
 
-## Installation:
+- **Dual-Tone Dominance**: Striking cyan accents meet true AMOLED blacks
+- **SFP-Compatible**: Works seamlessly with Steam Friends Patcher
+- **Easy Customization**: Modify colors in minutes with simple CSS edits
+- **Optimized Readability**: High-contrast design for extended gaming sessions
+- **Cloud-Powered Updates**: Automatically receive theme improvements via cloud-hosted CSS
 
-1. Install SFP from the link above.
-2. Copy the steamui folder in this repo to your Steam installation directory.
-3. Make sure SFP is set to "Run on boot". SFP will auto patch the files into your Steam for ease of use.
+## 🚀 Quick Start
 
-## Customization:
+### 📥 Prerequisites
 
-While Steamy Cynaide is made for myself personally. I have particular tastes others might not be fond of.<br>
-In the steamui folder you will find a config.css file that contains the color values for theming steam. Use RGB(a) or hex color values.<br>
-Like `rgba(0, 0, 0, 1)` or `#000000` <br>
-[RGB Color Picker](https://www.rapidtables.com/web/color/RGB_Color.html)
+- **[Steam Friends Patcher](https://github.com/PhantomGamers/SFP/)** _(Mandatory for theme injection)_
 
-## Credits:
-Massive thanks to the repo's below that have done all the heavy lifting. <br>
-[Steam Library by AikoMidori](https://github.com/AikoMidori/steam-library)<br>
-[Steam Dark Mode by AikoMidori](https://github.com/AikoMidori/steam-dark-mode)<br>
-[Steam Chat Skin by LazerFlash](https://github.com/LaserFlash/steam-chat-skin)
+### ⚙️ Installation Guide
+
+1. **Install** [Steam Friends Patcher](https://github.com/PhantomGamers/SFP/)
+2. **Clone/Download** this repository
+3. **Copy** the `steamui` folder to your Steam directory:
+   ```bash
+   # Typical Windows path:
+   C:\Program Files (x86)\Steam
+   ```
+4. **Enable** "Run on boot" in SFP settings
+5. **Restart Steam** and bathe in cyan glory! 💙
+
+## 🎨 Customization Central
+
+Make it _yours_ with simple color tweaks:
+
+1. Open `config.css` in any text editor
+2. Modify these core variables:
+   ```css
+   :root {
+	  --background-color: rgba(0, 0, 0, 1);
+	  --background-lighter: rgba(10, 10, 10, 1);
+   	--yourcolor: rgba(0, 255, 255, 1);
+   }
+   ```
+3. Save changes → SFP auto-applies updates!
+
+**Color Tools**:  
+🎨 [RGB Color Picker](https://www.rapidtables.com/web/color/RGB_Color.html)  
+
+## 🙏 Credits & Foundations
+
+This theme stands on the shoulders of these giants:
+
+- **Core Framework**:  
+  [AikoMidori](https://github.com/AikoMidori/)'s Steam Library & Dark Mode
+- **Chat System**:  
+  [LazerFlash](https://github.com/LaserFlash/steam-chat-skin)
+- **Patching Magic**:  
+  [PhantomGamers](https://github.com/PhantomGamers/SFP/)
+
+## 🔄 Keep Updated
+    git pull origin main
+
+_Pro Tip: Backup your steamui folder before updating!_
+
+---
+
+**💡 Made with ❤️ by [JaxEllis](https://github.com/jaxellis)**  
+_Found a bug? Want a new feature? [Open an issue](https://github.com/jaxellis/Steamy-Cyanide/issues)_
+
+_Transform your Steam experience today!_
