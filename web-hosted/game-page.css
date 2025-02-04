@@ -54,7 +54,7 @@
 :not(
 		[class*='library_ContextMenuAction_']
 	)[class*='contextmenu_contextMenuItem_'][class*='contextmenu_active_'] {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border-radius: var(--Corner0) !important;
 	color: var(--yourcolor);
 }
@@ -402,7 +402,7 @@
 
 /* Button Toolbar */
 .appdetailssection_Body_5uvIN.appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-	background-color: var(--background-lighter) !important;
+	background-color: var(--foreground-color) !important;
 	border-radius: var(--Corner2);
 }
 
@@ -413,7 +413,7 @@
 	box-shadow: 0 0 0 2px var(--yourcolor) inset !important;
 	transition: all 0.2s ease-out !important;
 	border-radius: var(--Corner1);
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 
 /* Removes Image Blur */
@@ -578,7 +578,7 @@
 
 /* Menu Buttons*/
 [class*='appdetailsplaysection_MenuButton_'] {
-	background-color: var(--background-lighter);
+	background-color: var(--foreground-color);
 }
 
 :not([class*='appactionbutton_Disabled_'])

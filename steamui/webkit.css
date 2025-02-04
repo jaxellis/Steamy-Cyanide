@@ -10,13 +10,13 @@ body::-webkit-scrollbar-thumb {
 	background-clip: padding-box !important;
 	-webkit-box-shadow: none !important;
 	background-color: var(--yourcolor) !important;
-	border: 5px solid var(--darkgrey) !important;
+	border: 5px solid var(--foreground-lighter-color) !important;
 	border-radius: var(--border10) !important;
 	width: 25px !important;
 }
 body::-webkit-scrollbar-track {
 	-webkit-box-shadow: none !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 body::-webkit-scrollbar {
 	background-clip: padding-box !important;
@@ -71,14 +71,14 @@ body::-webkit-scrollbar {
 
 /* Main Code */
 html {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 div.bb_code,
 .bb_wysiwyg pre,
 blockquote.bb_blockquote,
 .bb_wysiwyg blockquote {
 	border-radius: var(--border10) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border: 0px !important;
 }
 #modalContent.modal.frame {
@@ -102,10 +102,10 @@ blockquote.bb_blockquote,
 	padding-bottom: 3px !important;
 }
 .light_container.bezel {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .browse_ctn_background {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .miniprofile_ingame {
 	background: var(--grey) !important;
@@ -119,7 +119,7 @@ blockquote.bb_blockquote,
 	border-radius: var(--border4) !important;
 }
 .lists_more_container .item > div div {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .lists_more_container .item {
@@ -231,7 +231,7 @@ blockquote.bb_blockquote,
 	border-radius: var(--border4) !important;
 }
 .page_content_ctn.dlc_associated_franchise {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .background_header_ctn.page_background {
 	display: none !important;
@@ -249,7 +249,7 @@ blockquote.bb_blockquote,
 	border: 1px solid var(--lightgrey) !important;
 }
 body.v6 .page_content.browse_reviews {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .appHubIconHolder.greyOverlay {
 	display: none !important;
@@ -308,7 +308,7 @@ img {
 	border-radius: var(--border4) !important;
 }
 body.recommendgame #review_create {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	padding: 16px !important;
 }
 #review_create .input_box {
@@ -338,13 +338,13 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
 	background: #1c202a00 !important;
 }
 .FeaturedBlock.First {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .home_page_body_ctn {
 	background: var(--realblack) !important;
 }
 body.v6.summer2018_home .home_page_body_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .responsive_page_content {
 	background: var(--black) !important;
@@ -357,10 +357,10 @@ body.v6.summer2018_home .home_page_body_ctn {
 	border-radius: var(--border4) !important;
 }
 .home_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .home_ctn.apps_recommended_by_curators_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .home_ctn.discovery_queue_ctn {
 	background: var(--bedarkgrey) !important;
@@ -370,7 +370,7 @@ body.v6.summer2018_home .home_page_body_ctn {
 	background: var(--bedarkgrey) !important;
 }
 body.v6 .page_content_ctn.dark {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 body.v6.infinite_scrolling #footer.small_footer {
 	background: var(--bedarkgrey) !important;
@@ -436,8 +436,8 @@ body.v6 .supernav_content {
 	border-radius: var(--border50) !important;
 }
 .friends_container {
-	background: var(--darkgrey) !important;
-	background-color: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .friend_block_v2 {
@@ -499,7 +499,7 @@ body.v6 .supernav_content {
 }
 .searchbox {
 	background-image: none !important;
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	border-radius: var(--border20) !important;
 	border: 0 !important;
 	margin-top: 1px !important;
@@ -592,11 +592,11 @@ body.v6 .store_nav .popup_block_new .popup_body {
 }
 .hover_body .hover_review_summary {
 	color: var(--darkwhite) !important;
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .hover_tag_row .app_tag {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	color: var(--darkwhite) !important;
 	border-radius: var(--border4) !important;
 }
@@ -704,7 +704,7 @@ div.store_header_btn {
 }
 .hover_details_block,
 .hover_details_block_full {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 .friends_recently_purchased .friends_container {
 	border-top: 0 !important;
@@ -858,7 +858,7 @@ img.member_tile {
 	border-radius: var(--border4) !important;
 }
 .apps_recommended_by_curators_ctn.home_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .marketingmessage_container {
 	border-radius: var(--border4) !important;
@@ -1146,7 +1146,7 @@ body.v6 {
 	background-color: var(--bedarkgrey) !important;
 }
 .sale_page_three_section_top_block {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 .game_background_glow {
 	background: 0 0 !important;
@@ -1165,7 +1165,7 @@ body.v6 div#footer,
 body.v6 div#global_header,
 body.v6 div#main,
 body.v6 div.page_area {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 body.v6 div#global_header {
 	background: var(--bedarkgrey) !important;
@@ -1286,7 +1286,7 @@ div#game_select_suggestions_ctn {
 	) !important;
 }
 .apphub_CardContentGuideTitle {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 input.community_home_search_app_input {
 	background-color: var(--grey) !important;
@@ -1326,17 +1326,17 @@ input.community_home_search_players_input {
 	background-color: var(--begrey) !important;
 }
 body.headerOverride {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .pagecontent {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	padding-bottom: 0px !important;
 }
 body.flat_page:not(.iframe) {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .BroadcastInfoWrapper {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .detailBox.altFooter {
 	background: 0 0 !important;
@@ -1364,7 +1364,7 @@ a.sectionTab {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 .friendBlock {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .miniprofile_top {
 	border: 0 !important;
@@ -1384,7 +1384,7 @@ a.sectionTab {
 	border-radius: var(--border4) !important;
 }
 .miniprofile_favorite_badge {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border: 0 !important;
 }
 .miniprofile_arrow.right {
@@ -1669,7 +1669,7 @@ a.forum_comment_action:hover {
 	margin-right: 10px !important;
 	border-radius: 25px !important;
 	text-align: center !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border: 0 !important;
 }
 .btn_profile_action.btn_medium:hover {
@@ -1773,7 +1773,7 @@ a.forum_comment_action:hover {
 }
 #about_header_area {
 	background-image: none !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .blotter_screenshot_image {
 	background-color: var(--lightblack) !important;
@@ -1787,7 +1787,7 @@ a.forum_comment_action:hover {
 	border-radius: var(--border4) !important;
 }
 .about_boxes_box_mid {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .about_install_ctn {
@@ -1797,7 +1797,7 @@ a.forum_comment_action:hover {
 .about_box_wide {
 	border: 0 !important;
 	border-radius: var(--border4) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	padding: 5px 5px 15px 5px !important;
 	margin: 0 !important;
 }
@@ -1827,7 +1827,7 @@ a.forum_comment_action:hover {
 	border: 1px solid var(--black) !important;
 }
 .help_purchase_detail_box {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 .profile_small_header_bg {
 	background-image: none !important;
@@ -1916,13 +1916,13 @@ a.games_list_tab.first_tab {
 }
 .profile_content {
 	background-image: none !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .guideTop .workshopItemControls {
 	background-color: var(--bedarkgrey) !important;
 }
 .guideTop {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 .friend_reviews .review_box {
 	border-left: 1px solid var(--thegrey) !important;
@@ -1945,7 +1945,7 @@ a.games_list_tab.first_tab {
 	background: 0 0 !important;
 }
 .discovery_queue_customize_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border: 0 !important;
 }
 .discovery_queue_customize_ctn > .btn_medium {
@@ -2008,7 +2008,7 @@ body.v6 .discount_block {
 }
 .profile_small_header_texture {
 	background-image: none !important;
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 .sale_capsule_image_hover {
 	border: 1px solid var(--darkergrey) !important;
@@ -2024,7 +2024,7 @@ body.v6 .discount_block {
 	border-radius: var(--border4) !important;
 }
 .home_discounts_ctn {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .home_discounts_ctn .home_discount_line {
 	height: 0px !important;
@@ -2126,7 +2126,7 @@ body.v6 .wishlist_header h2 {
 	line-height: 36px !important;
 }
 .steamawards_app_banner_ctn {
-	border: 1px solid var(--darkgrey) !important;
+	border: 1px solid var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .discount_block.no_discount .discount_prices {
@@ -2361,7 +2361,7 @@ select {
 	border-radius: var(--border4) !important;
 }
 body.flat_page {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 body.flat_page #footer_spacer,
 body.headerless_page #footer_spacer {
@@ -2696,7 +2696,7 @@ body.v6 #footer .rule {
 }
 .game_area_details_specs a.name {
 	color: var(--white) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .game_area_details_specs a.name:hover {
@@ -3113,7 +3113,7 @@ a.group_tab:hover {
 	border-top: 0 !important;
 }
 .group_associated_game {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .group_associated_game_icon {
@@ -3255,7 +3255,7 @@ input.btn_small:hover {
 }
 #widget {
 	border: 0 !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border-radius: var(--border4) !important;
 }
 .btn_addtocart .btn_addtocart_left,
@@ -3528,7 +3528,7 @@ a.games_list_tab.first_tab {
 }
 .searchApps {
 	border-radius: var(--border20) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .workshopAppsRow {
 	border-bottom: 0 !important;
@@ -3548,7 +3548,7 @@ a.games_list_tab.first_tab {
 	border-radius: var(--border4) !important;
 	width: 240px !important;
 	height: 80px !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .joinGroupTitle {
 	margin-left: 50px !important;
@@ -3571,7 +3571,7 @@ a.games_list_tab.first_tab {
 }
 .workshop_browse_menu_area {
 	border-radius: var(--border4) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	text-align: left;
 }
 .workshop_browse_search {
@@ -3691,7 +3691,7 @@ h2.pageheader {
 }
 .block a.linkbar {
 	padding: 5px 10px !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .block_sub_header_channels {
 	padding: 0 0 0 10px !important;
@@ -3745,7 +3745,7 @@ h2.pageheader {
 	float: right !important;
 }
 .sale_page_background {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 body.v6.winter_sale_home h2.winter {
 	margin-left: -40px !important;
@@ -3797,7 +3797,7 @@ body.v6.winter_sale_home h2.winter {
 .newmodal_header {
 	border-top-left-radius: var(--border4) !important;
 	border-top-right-radius: var(--border4) !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 }
 .newmodal_content {
 	border-radius: var(--border4) !important;
@@ -3850,7 +3850,7 @@ div.profile_page.has_profile_background {
 .grouppage_membertiles_overlay {
 	top: 0 !important;
 	padding-bottom: 12px !important;
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	opacity: 0.9 !important;
 }
 .grouppage_member_tiles {

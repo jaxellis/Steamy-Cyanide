@@ -28,7 +28,7 @@
 }
 
 [class*='gamelistsectionheader_Container_'][class*='gamelistsectionheader_HoverOverlay_'] {
-	background-color: var(--darkgrey) !important;
+	background-color: var(--foreground-lighter-color) !important;
 }
 
 [class*='gamelistentry_FriendIsPlaying_'] {
@@ -303,7 +303,7 @@
 	[class*='appfilterpane_SaveButton_']:disabled,
 [class*='appfilterpane_Container_']
 	[class*='appfilterpane_SaveButton_']:disabled:hover {
-	background: var(--darkgrey) !important;
+	background: var(--foreground-lighter-color) !important;
 	border-radius: var(--Corner0) !important;
 }
 
@@ -317,7 +317,7 @@
 	[class*='gamelistsearchbar_AdvancedSearchContainer_']
 	[class*='gamelistsearchbar_AdvancedSearchPane_'] {
 	background-color: var(--searchfiltermenu) !important;
-	box-shadow: 1px 1px 5px 1px var(--background-lighter) !important;
+	box-shadow: 1px 1px 5px 1px var(--foreground-color) !important;
 	margin-left: 10px !important;
 }
 [class*='gamelistsearchbar_Container_']

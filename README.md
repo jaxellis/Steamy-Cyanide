@@ -38,7 +38,7 @@ Make it _yours_ with simple color tweaks:
    ```css
    :root {
 	  --background-color: rgba(0, 0, 0, 1);
-	  --background-lighter: rgba(10, 10, 10, 1);
+	  --foreground-color: rgba(10, 10, 10, 1);
    	--yourcolor: rgba(0, 255, 255, 1);
    }
    ```
@@ -52,7 +52,7 @@ Make it _yours_ with simple color tweaks:
 This theme stands on the shoulders of these giants:
 
 - **Core Framework**:  
-  [AikoMidori](https://github.com/AikoMidori/)'s Steam Library & Dark Mode
+  [AikoMidori](https://github.com/AikoMidori/)'s Steam Dark Mode
 - **Chat System**:  
   [LazerFlash](https://github.com/LaserFlash/steam-chat-skin)
 - **Patching Magic**:  

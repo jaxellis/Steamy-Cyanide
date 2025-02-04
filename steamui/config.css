@@ -3,9 +3,9 @@
 	/* COLORS */
 
 	/* MAIN COLORS */
-	--background-color: rgba(0, 0, 0, 1);
-	--background-lighter: rgba(10, 10, 10, 1);
-	--darkgrey: rgba(20, 20, 20, 1);
+	--background-color: rgb(0, 0, 0);
+	--foreground-color: rgb(10, 10, 10);
+	--foreground-lighter-color: rgb(20, 20, 20);
 	--grey: rgba(30, 30, 30, 1);
 	--lightgrey: rgba(40, 40, 40, 1);
 	--white: rgb(255, 255, 255);
@@ -45,7 +45,7 @@
 	--downloadspagebg: var(--background-color);
 
 	/* Downloads page top background color */
-	--downloadspagetop: var(--background-lighter);
+	--downloadspagetop: var(--foreground-color);
 
 	/* Scrollbar color */
 	--scrollbar: var(--yourcolor);
@@ -60,10 +60,10 @@
 	--gamelist: var(--yourcolordarker);
 
 	/* Filter dropdown menu color */
-	--menudrop: var(--background-lighter);
+	--menudrop: var(--foreground-color);
 
 	/* Title hover background color */
-	--titlehover: var(--darkgrey);
+	--titlehover: var(--dark-grey);
 
 	/* Game list title hover name color */
 	--titlenamehover: var(--yourcolor);
@@ -84,10 +84,10 @@
 	--collections: var(--yourcolor);
 
 	/* Sidebar back to top button color */
-	--backtotop: var(--darkgrey);
+	--backtotop: var(--dark-grey);
 
 	/* Game filter button color */
-	--gamefilter: var(--background-lighter);
+	--gamefilter: var(--foreground-color);
 
 	/* Search filter button color */
 	--searchfilter: var(--yourcolor);
@@ -96,10 +96,10 @@
 	--searchfiltermenu: var(--background-color);
 
 	/* Searchbar color */
-	--search: var(--darkgrey);
+	--search: var(--dark-grey);
 
 	/* Searchbar hover color */
-	--searchhover: var(--background-lighter);
+	--searchhover: var(--foreground-color);
 
 	/* Miniprofile background color */
 	--miniprofilebg: var(--background-color);
@@ -120,10 +120,10 @@
 	--checkbox: var(--background-color);
 
 	/* Music library background color */
-	--musicbg: var(--background-lighter);
+	--musicbg: var(--foreground-color);
 
 	/* Music library list color */
-	--musiclist: var(--darkgrey);
+	--musiclist: var(--dark-grey);
 }
 
 :root {

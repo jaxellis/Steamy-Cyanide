@@ -11,7 +11,7 @@ ex. ContextMenuPopupBody
 
 /* Top Bar */
 [class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_TopBar_'] {
-	background: var(--background-lighter);
+	background: var(--foreground-color);
 }
 
 /* Hidden URL replacement div in Library */
@@ -21,12 +21,12 @@ ex. ContextMenuPopupBody
 
 /* URL bar in the Store */
 [class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_URLBar_'] {
-	background-color: var(--background-lighter);
+	background-color: var(--foreground-color);
 }
 [class*='steamdesktop_OuterFrame_']
 	[class*='steamdesktop_URLBar_']
 	[class*='steamdesktop_URLBarText_']:hover {
-	background-color: var(--darkgrey);
+	background-color: var(--foreground-lighter-color);
 }
 [class*='steamdesktop_OuterFrame_']
 	[class*='steamdesktop_URLBar_']
@@ -38,12 +38,12 @@ ex. ContextMenuPopupBody
 [class*='steamdesktop_OuterFrame_']
 	[class*='steamdesktop_URLBar_']
 	[class*='steamdesktop_StatusIcon_']:hover {
-	background-color: var(--darkgrey);
+	background-color: var(--foreground-lighter-color);
 }
 
 /* Copied popup */
 [class*='steamdesktop_URLBarCopied_'] {
-	background-color: var(--darkgrey);
+	background-color: var(--foreground-lighter-color);
 	color: var(--yourcolor);
 }
 
@@ -82,10 +82,10 @@ ex. ContextMenuPopupBody
 }
 
 .ContextMenuPopupBody [class*='menu_MenuPopup_'] {
-	background-color: var(--background-lighter);
+	background-color: var(--foreground-color);
 }
 
 /* Bottom Bar */
 [class*='steamdesktop_OuterFrame_'] [class*='bottombar_BottomBar_'] {
-	background: var(--background-lighter);
+	background: var(--foreground-color);
 }
