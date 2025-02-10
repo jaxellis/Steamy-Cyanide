@@ -1,49 +1,37 @@
-/*
-For general reference, 
-everything in this should be prefixed with the OuterFrame class.
-ex. [style*='steamdesktop_OuterFrame_']
-
-Exceptions to this rule are for elements that "appear" in the OuterFrame,
-but have their own html tag. 
-or appear in the same html tag but are outside of the OuterFrame class
-ex. ContextMenuPopupBody
-*/
-
 /* Top Bar */
-[class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_TopBar_'] {
+._3Z7VQ1IMk4E3HsHvrkLNgo {
 	background: var(--foreground-color);
 }
 
-/* Hidden URL replacement div in Library */
-[class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_URLBarReplacement_'] {
-	display: none;
+/* URL Refresh Icon */
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._3KaB94Jl4r0hFkthDPJy09:hover {
+	background-color: var(--foreground-lighter-color);
 }
 
 /* URL bar in the Store */
-[class*='steamdesktop_OuterFrame_'] [class*='steamdesktop_URLBar_'] {
-	background-color: var(--foreground-color);
+.UkR3sY319PuaUNuUWks2K {
+	background-color: var(--foreground-color) !important;
 }
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_URLBar_']
-	[class*='steamdesktop_URLBarText_']:hover {
-	background-color: var(--foreground-lighter-color);
+._1bGewp3tfzqAF6fVTFFUOz
+	.UkR3sY319PuaUNuUWks2K
+	._2m_orETo6AghzAnc0sISCt
+	.MZPxEZcxAGtPDf1NYtouS {
+	color: var(--textcolor);
 }
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_URLBar_']
-	[class*='steamdesktop_URLBarText_']:hover
-	[class*='steamdesktop_URL_'] {
+/* URL On Hover */
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt:hover {
+	background-color: var(--foreground-lighter-color) !important;
+}
+._1bGewp3tfzqAF6fVTFFUOz
+	.UkR3sY319PuaUNuUWks2K
+	._2m_orETo6AghzAnc0sISCt:hover
+	.MZPxEZcxAGtPDf1NYtouS {
 	color: var(--yourcolor);
 }
-/* Refresh Icon */
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_URLBar_']
-	[class*='steamdesktop_StatusIcon_']:hover {
-	background-color: var(--foreground-lighter-color);
-}
 
-/* Copied popup */
-[class*='steamdesktop_URLBarCopied_'] {
-	background-color: var(--foreground-lighter-color);
+/* URL 'Copied' popup */
+._3cXgxM5dBuTxGOOYw0lxsP {
+	background-color: var(--background-color);
 	color: var(--yourcolor);
 }
 
@@ -56,36 +44,26 @@ ex. ContextMenuPopupBody
 }
 
 /* Active Tab */
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_TopBar_']
-	[class*='supernav_Selected_']
-	[class*='supernav_MenuButton_'] {
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo)
+	._19axKcqYRuaJ8vdYKYmtTQ {
 	color: var(--yourcolor);
 }
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_TopBar_']
-	[class*='supernav_Selected_']
-	[class*='supernav_MenuButton_']::after {
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo)
+	._19axKcqYRuaJ8vdYKYmtTQ::after {
 	background: var(--yourcolor);
 }
 
 /* Tab Hover */
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_TopBar_']
-	[class*='supernav_MenuButton_']:hover {
+._7AlhCx3XGzBeIrQaCneUD._3rgV8pPmQvZC-01x91-q-N:hover {
 	color: var(--yourcolor);
 }
 
 /* Tab Context Menu */
-.ContextMenuPopupBody [class*='contextmenu_contextMenu_'] {
-	min-width: 0px !important;
-}
-
 .ContextMenuPopupBody [class*='menu_MenuPopup_'] {
 	background-color: var(--foreground-color);
 }
 
 /* Bottom Bar */
-[class*='steamdesktop_OuterFrame_'] [class*='bottombar_BottomBar_'] {
+._3vCzSrrXZzZjVJFZNg9SGu {
 	background: var(--foreground-color);
 }

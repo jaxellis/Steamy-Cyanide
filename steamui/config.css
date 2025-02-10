@@ -72,7 +72,7 @@
 	--gamehover: var(--background-color);
 
 	/* Text color */
-	--textcolor: var(--yourcolor);
+	--textcolor: rgb(190, 190, 190);
 
 	/* Button Text color */
 	--buttontextcolor: var(--background-color);
