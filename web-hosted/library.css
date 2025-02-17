@@ -47,3 +47,13 @@
 ._2-O4ZG0KrnSrzISHBKctFQ:hover {
 	background: var(--foreground-lighter-color) !important;
 }
+
+/* Play/Download Buttons */
+div:has(> .SVGIcon_Play, > .SVGIcon_Download) {
+	background: var(--yourcolor) !important;
+}
+.SVGIcon_Play > path,
+.SVGIcon_Download > path,
+.SVGIcon_Download > svg > path {
+	fill: var(--foreground-color) !important;
+}

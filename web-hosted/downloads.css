@@ -39,15 +39,3 @@
 ._1VNuYHM6BPBOJspC6zPf5r:hover {
 	background-color: var(--foreground-color);
 }
-
-/* Play Button */
-._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX {
-	background: var(--libraryhome) !important;
-	color: var(--foreground-color) !important;
-}
-._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX > svg > path {
-	fill: var(--foreground-color) !important;
-}
-._3cI5TXsFX3bvpR-7EBOtxq > ._2AzIX5kl9k6JnxLfR5H4kX > ._33cnXIqTRgRr49_FNXIHj6 {
-	color: var(--foreground-color) !important;
-}
