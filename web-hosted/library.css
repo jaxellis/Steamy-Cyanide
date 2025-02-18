@@ -52,8 +52,13 @@
 div:has(> .SVGIcon_Play, > .SVGIcon_Download) {
 	background: var(--yourcolor) !important;
 }
+/* Icons */
 .SVGIcon_Play > path,
 .SVGIcon_Download > path,
 .SVGIcon_Download > svg > path {
 	fill: var(--foreground-color) !important;
+}
+/* "Play" Text */
+.SVGIcon_Play + div {
+	color: var(--foreground-color) !important;
 }
