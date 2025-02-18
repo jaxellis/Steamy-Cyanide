@@ -35,15 +35,12 @@
 	color: var(--yourcolor);
 }
 
-/* Root Menu Top Bar Hover */
-[class*='steamdesktop_OuterFrame_']
-	[class*='steamdesktop_TopBar_']
-	[class*='rootmenu_RootMenuBar_']
-	[class*='rootmenu_RootMenuButton']:hover {
-	color: var(--yourcolor);
+/* Page Tab Text */
+._7AlhCx3XGzBeIrQaCneUD ._19axKcqYRuaJ8vdYKYmtTQ {
+	color: var(--textcolor);
 }
 
-/* Active Tab */
+/* Page Active Tab */
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo)
 	._19axKcqYRuaJ8vdYKYmtTQ {
 	color: var(--yourcolor);
@@ -53,14 +50,9 @@
 	background: var(--yourcolor);
 }
 
-/* Tab Hover */
+/* Page Tab Hover */
 ._7AlhCx3XGzBeIrQaCneUD._3rgV8pPmQvZC-01x91-q-N:hover {
 	color: var(--yourcolor);
-}
-
-/* Tab Context Menu */
-.ContextMenuPopupBody [class*='menu_MenuPopup_'] {
-	background-color: var(--foreground-color);
 }
 
 /* Bottom Bar */
