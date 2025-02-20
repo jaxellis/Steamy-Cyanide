@@ -98,16 +98,14 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line) {
 .SVGIcon_Download > svg > path {
 	fill: var(--foreground-color) !important;
 }
-/* "Play" Text */
+/* Play/Stop Text */
 .SVGIcon_Play + div,
-.DesktopUI .Play.contextMenuItem {
+.SVGIcon_X_Line + div,
+.DesktopUI .Play.contextMenuItem,
+.DesktopUI .Stop.contextMenuItem {
 	color: var(--foreground-color) !important;
 }
 /* Stop "X" */
 .SVGIcon_X_Line > line {
 	stroke: var(--foreground-color) !important;
-}
-/* "Stop" Text */
-div:has(> .SVGIcon_X_Line) > div {
-	color: var(--foreground-color) !important;
 }
