@@ -82,8 +82,8 @@ Element created when game name is longer than the container width
 	color: var(--yourcolor) !important;
 }
 
-/* Play/Download Buttons */
-div:has(> .SVGIcon_Play, > .SVGIcon_Download) {
+/* Play/Download/Stop Buttons */
+div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line) {
 	background: var(--yourcolor) !important;
 }
 /* Icons */
@@ -96,4 +96,8 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download) {
 .SVGIcon_Play + div,
 .DesktopUI .Play.contextMenuItem {
 	color: var(--foreground-color) !important;
+}
+/* Stop "X" */
+.SVGIcon_X_Line > line {
+	stroke: var(--foreground-color) !important;
 }
