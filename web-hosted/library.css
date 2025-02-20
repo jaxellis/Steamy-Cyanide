@@ -82,6 +82,12 @@ Element created when game name is longer than the container width
 	color: var(--yourcolor) !important;
 }
 
+/*
+Game Action Buttons 
+Below contain any button related to taking action on the game (Play, Download, Stop)
+These selectors should work for the entirety of steam and not just the library
+*/
+
 /* Play/Download/Stop Buttons */
 div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line) {
 	background: var(--yourcolor) !important;
@@ -100,4 +106,8 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line) {
 /* Stop "X" */
 .SVGIcon_X_Line > line {
 	stroke: var(--foreground-color) !important;
+}
+/* "Stop" Text */
+div:has(> .SVGIcon_X_Line) > div {
+	color: var(--foreground-color) !important;
 }
