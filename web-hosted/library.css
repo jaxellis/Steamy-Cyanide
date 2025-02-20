@@ -109,3 +109,36 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line) {
 .SVGIcon_X_Line > line {
 	stroke: var(--foreground-color) !important;
 }
+
+/*
+Context Menu
+Below is for the context menu of the Game library (Right click on a game)
+Theme for Play/Stop/Download context menu is in the buttons above
+*/
+
+/* Main Container  */
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+	background: var(--foreground-color) !important;
+}
+/* Button Container */
+._2EstNjFIIZm_WUSKm5Wt7n {
+	background: var(--foreground-color) !important;
+}
+/* Active button */
+._2EstNjFIIZm_WUSKm5Wt7n._18z-3vkWndCBO5WJgFldRK {
+	background: var(--foreground-lighter-color) !important;
+	color: var(--yourcolor) !important;
+}
+/* 
+Button Text
+*/
+._2EstNjFIIZm_WUSKm5Wt7n > div {
+	color: var(--textcolor) !important;
+}
+/* 
+Hovered Items
+*/
+._2EstNjFIIZm_WUSKm5Wt7n > div:hover {
+	background: var(--foreground-lighter-color) !important;
+	color: var(--yourcolor) !important;
+}
