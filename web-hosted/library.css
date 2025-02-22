@@ -108,7 +108,7 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line):not(
 	color: var(--foreground-color) !important;
 }
 /* Stop "X" */
-div:not(.title-area-icon-inner) .SVGIcon_X_Line > line {
+div:not(.title-area-icon-inner) > .SVGIcon_X_Line > line {
 	stroke: var(--foreground-color) !important;
 }
 
