@@ -13,10 +13,38 @@
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background-image: none !important;
 }
+/* What's New Game Title  */
+._3_xMyCJAh_Dv99KgZ54P3j {
+	background-color: var(--foreground-color) !important;
+}
+._3_xMyCJAh_Dv99KgZ54P3j:hover {
+	background-color: var(--foreground-lighter-color) !important;
+}
+._3_xMyCJAh_Dv99KgZ54P3j span {
+	color: var(--textcolor) !important;
+}
 
 /* Shelves / Add Shelves Container */
 ._3Sb2o_mQ30IDRh0C72QUUu {
 	background-image: none !important;
+}
+/* Shelf: Sort By */
+._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_CurrentDisplay {
+	background-color: var(--foreground-color) !important;
+	color: var(--textcolor) !important;
+}
+._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_Arrow {
+	background-color: var(--foreground-color) !important;
+	color: var(--textcolor) !important;
+}
+._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_Arrow > svg {
+	fill: var(--textcolor) !important;
+}
+/* Shelf: All Games: "Sortable" Pill Info per game */
+._1LJqx_qFOC8199RBQO5kU8 {
+	background-color: var(--foreground-color) !important;
+	color: var(--textcolor) !important;
+	font-weight: bold;
 }
 
 /* Library List Background */
