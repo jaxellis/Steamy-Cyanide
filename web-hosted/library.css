@@ -13,33 +13,43 @@
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background-image: none !important;
 }
+
 /* What's New Game Title  */
 ._3_xMyCJAh_Dv99KgZ54P3j {
 	background-color: var(--foreground-color) !important;
-}
-._3_xMyCJAh_Dv99KgZ54P3j:hover {
-	background-color: var(--foreground-lighter-color) !important;
-}
-._3_xMyCJAh_Dv99KgZ54P3j span {
-	color: var(--textcolor) !important;
+
+	&:hover {
+		background-color: var(--foreground-lighter-color) !important;
+	}
+
+	span {
+		color: var(--textcolor) !important;
+		font-weight: 400;
+	}
 }
 
 /* Shelves / Add Shelves Container */
 ._3Sb2o_mQ30IDRh0C72QUUu {
 	background-image: none !important;
 }
+
 /* Shelf: Sort By */
-._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_CurrentDisplay {
-	background-color: var(--foreground-color) !important;
-	color: var(--textcolor) !important;
+._1tBzypb5E2AwNuBuVns9Hl {
+	.DialogDropDown_CurrentDisplay {
+		background-color: var(--foreground-color) !important;
+		color: var(--textcolor) !important;
+	}
+
+	.DialogDropDown_Arrow {
+		background-color: var(--foreground-color) !important;
+		color: var(--textcolor) !important;
+
+		svg {
+			fill: var(--textcolor) !important;
+		}
+	}
 }
-._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_Arrow {
-	background-color: var(--foreground-color) !important;
-	color: var(--textcolor) !important;
-}
-._1tBzypb5E2AwNuBuVns9Hl .DialogDropDown_Arrow > svg {
-	fill: var(--textcolor) !important;
-}
+
 /* Shelf: All Games: "Sortable" Pill Info per game */
 ._1LJqx_qFOC8199RBQO5kU8 {
 	background-color: var(--foreground-color) !important;
@@ -60,15 +70,18 @@
 		var(--foreground-lighter-color) 40%,
 		var(--foreground-color) 100%
 	) !important;
-}
-._2sYIghGVXJr6tsQVvcryy8:hover {
-	background: var(--foreground-lighter-color) !important;
+
+	&:hover {
+		background: var(--foreground-lighter-color) !important;
+	}
 }
 
 /* Category Text */
-._3cV3O8FnPQqpJO5kIMUlLX > span,
-._3cV3O8FnPQqpJO5kIMUlLX > div {
-	color: var(--textcolor) !important;
+._3cV3O8FnPQqpJO5kIMUlLX {
+	> span,
+	> div {
+		color: var(--textcolor) !important;
+	}
 }
 
 /* Category Selected Background */
@@ -84,6 +97,7 @@ Element created when game name is longer than the container width
 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
 	background: var(--foreground-lighter-color) !important;
 }
+
 /* Library List Game Active/Focused */
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ {
 	background: var(--foreground-lighter-color) !important;
@@ -121,23 +135,28 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line):not(
 		.title-area-icon-inner
 	) {
 	background: var(--yourcolor) !important;
+
+	/* Icons */
+	.SVGIcon_Play,
+	.SVGIcon_Download {
+		> path,
+		> svg > path {
+			fill: var(--foreground-color) !important;
+		}
+	}
+
+	/* Stop "X" */
+	.SVGIcon_X_Line > line {
+		stroke: var(--foreground-color) !important;
+	}
 }
-/* Icons */
-.SVGIcon_Play > path,
-.SVGIcon_Download > path,
-.SVGIcon_Download > svg > path {
-	fill: var(--foreground-color) !important;
-}
+
 /* Play/Stop Text */
 .SVGIcon_Play + div,
 .SVGIcon_X_Line + div,
 .DesktopUI .Play.contextMenuItem,
 .DesktopUI .Stop.contextMenuItem {
 	color: var(--foreground-color) !important;
-}
-/* Stop "X" */
-div:not(.title-area-icon-inner) > .SVGIcon_X_Line > line {
-	stroke: var(--foreground-color) !important;
 }
 
 /*
@@ -153,22 +172,18 @@ Theme for Play/Stop/Download context menu is in the buttons above
 /* Button Container */
 ._2EstNjFIIZm_WUSKm5Wt7n {
 	background: var(--foreground-color) !important;
-}
-/* Active button */
-._2EstNjFIIZm_WUSKm5Wt7n._18z-3vkWndCBO5WJgFldRK {
-	background: var(--foreground-lighter-color) !important;
-	color: var(--yourcolor) !important;
-}
-/* 
-Button Text
-*/
-._2EstNjFIIZm_WUSKm5Wt7n > div {
-	color: var(--textcolor) !important;
-}
-/* 
-Hovered Items
-*/
-._2EstNjFIIZm_WUSKm5Wt7n > div:hover {
-	background: var(--foreground-lighter-color) !important;
-	color: var(--yourcolor) !important;
+
+	/* Active button */
+	&._18z-3vkWndCBO5WJgFldRK {
+		background: var(--foreground-lighter-color) !important;
+		color: var(--yourcolor) !important;
+	}
+	/* Button Text */
+	> div {
+		color: var(--textcolor) !important;
+		&:hover {
+			background: var(--foreground-lighter-color) !important;
+			color: var(--yourcolor) !important;
+		}
+	}
 }
