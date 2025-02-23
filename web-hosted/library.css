@@ -151,8 +151,9 @@ div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line):not(
 	}
 }
 
-/* Play/Stop Text */
+/* Button Text */
 .SVGIcon_Play + div,
+.SVGIcon_Download + div,
 .SVGIcon_X_Line + div,
 .DesktopUI .Play.contextMenuItem,
 .DesktopUI .Stop.contextMenuItem {
