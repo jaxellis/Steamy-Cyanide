@@ -150,7 +150,8 @@ div:has(
 	.SVGIcon_Download,
 	.SVGIcon_FlatArrow {
 		> path,
-		> svg > path {
+		> svg > path,
+		> polygon {
 			fill: var(--foreground-color) !important;
 		}
 	}
