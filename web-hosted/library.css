@@ -131,14 +131,18 @@ These selectors should work for the entirety of steam and not just the library
 */
 
 /* Play/Download/Stop Buttons */
-div:has(> .SVGIcon_Play, > .SVGIcon_Download, > .SVGIcon_X_Line):not(
-		.title-area-icon-inner
-	) {
+div:has(
+		> .SVGIcon_Play,
+		> .SVGIcon_Download,
+		> .SVGIcon_X_Line,
+		> .SVGIcon_FlatArrow
+	):not(.title-area-icon-inner) {
 	background: var(--yourcolor) !important;
 
 	/* Icons */
 	.SVGIcon_Play,
-	.SVGIcon_Download {
+	.SVGIcon_Download,
+	.SVGIcon_FlatArrow {
 		> path,
 		> svg > path {
 			fill: var(--foreground-color) !important;
