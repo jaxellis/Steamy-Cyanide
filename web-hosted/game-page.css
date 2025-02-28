@@ -1,0 +1,67 @@
+/* Game Info Bar */
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+	background: linear-gradient(
+		to bottom,
+		color-mix(in srgb, var(--background-color) 50%, transparent) 0%,
+		var(--background-color)
+	) !important;
+
+	/* Buttons - Settings-info-fav */
+	._3qDWQGB0rtwM3qpXTb11Q- {
+		background: var(--foreground-color) !important;
+	}
+
+	/* Info Text */
+	._3m_zjRTQBqcfzCjXLXUHcR {
+		> div,
+		._2TYVGoD27ZMfjRirKQNLfk._2muiKHUkOiTvX-6arqnQUC {
+			color: var(--textcolor) !important;
+		}
+	}
+}
+
+/* Quick Links Container */
+._2r4TK4BAuU-J4FuF_O7v_5._3-V8vjmrwuJM6Ws3tsjFJj.Panel {
+	background: var(--background-color) !important;
+	border: none !important;
+
+	/* Inner Container */
+	._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t.Panel {
+		background: color-mix(
+			in srgb,
+			var(--foreground-color) 60%,
+			transparent
+		) !important;
+
+		/* Item Text */
+		._2sNDjgK9EWiPLdNGkjun-w {
+			color: var(--textcolor) !important;
+		}
+
+		/* Item on Hover */
+		._1b6LYWVijW-9E4YV0keDWZ:hover {
+			background: var(--foreground-lighter-color) !important;
+
+			._2sNDjgK9EWiPLdNGkjun-w {
+				color: var(--yourcolor) !important;
+			}
+		}
+	}
+}
+
+/* Activity Container */
+._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
+	background: var(--background-color) !important;
+
+	/* Activity Card */
+	._1AYE16384J_ecLpN0sEYc5 {
+		border: none !important;
+
+		> div {
+			background: var(--foreground-color) !important;
+			&:hover {
+				background: var(--foreground-lighter-color) !important;
+			}
+		}
+	}
+}
