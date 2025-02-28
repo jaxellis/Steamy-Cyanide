@@ -57,6 +57,12 @@
 	font-weight: bold;
 }
 
+/* "New to Library" banner */
+.N8aJrSpxQ6II4CY_aFdYI {
+	background-color: var(--yourcolor) !important;
+	color: var(--foreground-color) !important;
+}
+
 /* Library List Background */
 ._3x1HklzyDs4TEjACrRO2tB {
 	background-image: none !important;
