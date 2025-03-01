@@ -23,7 +23,6 @@
 /* Quick Links Container */
 ._2r4TK4BAuU-J4FuF_O7v_5._3-V8vjmrwuJM6Ws3tsjFJj.Panel {
 	background: var(--background-color) !important;
-	border: none !important;
 
 	/* Inner Container */
 	._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t.Panel {
@@ -32,6 +31,7 @@
 			var(--foreground-color) 60%,
 			transparent
 		) !important;
+		border: none !important;
 
 		/* Item Text */
 		._2sNDjgK9EWiPLdNGkjun-w {
@@ -53,6 +53,57 @@
 ._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
 	background: var(--background-color) !important;
 
+	/* Review Game - "You've played for X hours" */
+	._3LE-6w1ItIAB4CKJFCa3Od {
+		background: var(--foreground-color) !important;
+
+		/* Inner Container */
+		._2SAb6geDpe6toA1GaP0GjH {
+			background: var(--foreground-color) !important;
+
+			/* Blue Title Text */
+			.qX4kNo6O0M-mYntdErKSJ {
+				color: var(--yourcolor) !important;
+			}
+
+			/* "Would you Recommend?" */
+			.My1beniJXh9pXud8rxYLK {
+				color: var(--textcolor) !important;
+			}
+
+			/* Buttons */
+			button._1kCN0pAntrcGCSmcc-vYdk {
+				background: var(--foreground-lighter-color) !important;
+				color: var(--yourcolor) !important;
+				svg {
+					fill: var(--yourcolor) !important;
+				}
+			}
+		}
+	}
+
+	/* Status Update Input Box */
+	._1JlC29Ic6L-QvL-39X_d-X {
+		background: var(--foreground-color) !important;
+	}
+
+	/* Status Update Button Emoticon-Post */
+	button.bACIuqv-b_9TztCczFK19,
+	._2JSyABqFEh-v_dwaTnBydR {
+		background: var(--foreground-color) !important;
+		color: var(--textcolor) !important;
+
+		&:hover {
+			background: var(--foreground-lighter-color) !important;
+		}
+		svg {
+			color: var(--yourcolor) !important;
+			path {
+				fill: var(--yourcolor) !important;
+			}
+		}
+	}
+
 	/* Activity Card */
 	._1AYE16384J_ecLpN0sEYc5 {
 		border: none !important;
@@ -63,5 +114,10 @@
 				background: var(--foreground-lighter-color) !important;
 			}
 		}
+	}
+
+	/* Activity Card Achievements */
+	.NEMXhMlqXOCJwfgWlHXhT {
+		background: var(--foreground-color) !important;
 	}
 }
