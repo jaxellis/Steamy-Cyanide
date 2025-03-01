@@ -167,7 +167,8 @@ div:has(
 .SVGIcon_Download + div,
 .SVGIcon_X_Line + div,
 .DesktopUI .Play.contextMenuItem,
-.DesktopUI .Stop.contextMenuItem {
+.DesktopUI .Stop.contextMenuItem,
+.DesktopUI .Install.contextMenuItem {
 	color: var(--foreground-color) !important;
 }
 
@@ -186,7 +187,7 @@ Theme for Play/Stop/Download context menu is in the buttons above
 	background: var(--foreground-color) !important;
 
 	/* Active button */
-	&._18z-3vkWndCBO5WJgFldRK {
+	._18z-3vkWndCBO5WJgFldRK {
 		background: var(--foreground-lighter-color) !important;
 		color: var(--yourcolor) !important;
 	}
@@ -197,5 +198,10 @@ Theme for Play/Stop/Download context menu is in the buttons above
 			background: var(--foreground-lighter-color) !important;
 			color: var(--yourcolor) !important;
 		}
+	}
+
+	/* Properties Button */
+	._1n7Wloe5jZ6fSuvV18NNWI {
+		border: none !important;
 	}
 }
