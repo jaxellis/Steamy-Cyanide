@@ -170,6 +170,7 @@ div:has(
 .DesktopUI .Stop.contextMenuItem,
 .DesktopUI .Install.contextMenuItem {
 	color: var(--foreground-color) !important;
+	font-weight: bold !important;
 }
 
 /*
