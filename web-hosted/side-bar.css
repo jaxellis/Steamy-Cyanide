@@ -18,8 +18,8 @@
 ._2sYIghGVXJr6tsQVvcryy8 {
 	background: linear-gradient(
 		to right,
-		var(--foreground-lighter-color) 40%,
-		var(--foreground-color) 100%
+		var(--foreground-color) 40%,
+		var(--background-color) 100%
 	) !important;
 
 	&:hover {
@@ -58,12 +58,12 @@ Element created when game name is longer than the container width
 */
 ._2-O4ZG0KrnSrzISHBKctFQ:hover,
 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
-	background: var(--foreground-lighter-color) !important;
+	background: var(--foreground-color) !important;
 }
 
 /* Game Active/Focused */
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ {
-	background: var(--foreground-lighter-color) !important;
+	background: var(--foreground-color) !important;
 }
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover,
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover,
