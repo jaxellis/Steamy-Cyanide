@@ -1,7 +1,17 @@
 /* Main Background */
 ._3x1HklzyDs4TEjACrRO2tB {
 	background-image: none !important;
-	background-color: var(--foreground-color) !important;
+	background-color: var(--background-color) !important;
+
+	/* Library Home Container */
+	._2TKEazUUS3TlniZfpc8OOe {
+		background-color: unset !important;
+
+		/* Home Button */
+		._3pSPluBgf0NeR1kkCLWMhR {
+			background-color: var(--foreground-color) !important;
+		}
+	}
 }
 
 /* Categories */
