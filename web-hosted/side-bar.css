@@ -10,6 +10,10 @@
 		/* Home Button */
 		._3pSPluBgf0NeR1kkCLWMhR {
 			background-color: var(--foreground-color) !important;
+
+			&:hover {
+				background-color: var(--foreground-lighter-color) !important;
+			}
 		}
 	}
 }
