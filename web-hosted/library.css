@@ -69,12 +69,18 @@ Below contain any button related to taking action on the game (Play, Download, S
 These selectors should work for the entirety of steam and not just the library
 */
 
-/* Play/Download/Stop Buttons */
+/* 
+Play
+Download
+Stop
+Update - Update buttons don't have a generic class name
+*/
 div:has(
 		> .SVGIcon_Play,
 		> .SVGIcon_Download,
 		> .SVGIcon_X_Line,
-		> .SVGIcon_FlatArrow
+		> .SVGIcon_FlatArrow,
+		> svg[enable-background='new 0 0 100 100']
 	):not(.title-area-icon-inner) {
 	background: var(--yourcolor) !important;
 
@@ -88,22 +94,26 @@ div:has(
 			fill: var(--foreground-color) !important;
 		}
 	}
+	/* Update Icon */
+	svg[enable-background='new 0 0 100 100'] {
+		fill: var(--foreground-color) !important;
+	}
 
 	/* Stop "X" */
 	.SVGIcon_X_Line > line {
 		stroke: var(--foreground-color) !important;
 	}
-}
-
-/* Button Text */
-.SVGIcon_Play + div,
-.SVGIcon_Download + div,
-.SVGIcon_X_Line + div,
-.DesktopUI .Play.contextMenuItem,
-.DesktopUI .Stop.contextMenuItem,
-.DesktopUI .Install.contextMenuItem {
-	color: var(--foreground-color) !important;
-	font-weight: bold !important;
+	/* Button Text */
+	.SVGIcon_Play + div,
+	.SVGIcon_Download + div,
+	.SVGIcon_X_Line + div,
+	svg[enable-background='new 0 0 100 100'] + div,
+	.DesktopUI .Play.contextMenuItem,
+	.DesktopUI .Stop.contextMenuItem,
+	.DesktopUI .Install.contextMenuItem {
+		color: var(--foreground-color) !important;
+		font-weight: bold !important;
+	}
 }
 
 /*
