@@ -7,12 +7,21 @@
 	._2TKEazUUS3TlniZfpc8OOe {
 		background-color: unset !important;
 
-		/* Home Button */
+		/* Home & Category Buttons */
 		._3pSPluBgf0NeR1kkCLWMhR {
 			background-color: var(--foreground-color) !important;
 
 			&:hover {
 				background-color: var(--foreground-lighter-color) !important;
+			}
+			/* Home Button Steam Icon SVG */
+			._1ooROmAgkhoBH_o65yl9dJ > svg {
+				fill: var(--yourcolor) !important;
+			}
+
+			/* Category Button Squares Grid */
+			._2tyaVs9BpqcW068aaOrO56 {
+				background-color: var(--yourcolor) !important;
 			}
 		}
 	}
