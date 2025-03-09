@@ -12,6 +12,10 @@
 /* "What's New" Container */
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background-image: none !important;
+	/* "What's New" Text */
+	._2hfibYuzyMOQ0sj2egsHh0 {
+		color: var(--yourcolor) !important;
+	}
 }
 
 /* "What's New" Game Title  */
@@ -31,6 +35,11 @@
 /* Shelves / Add Shelves Container */
 ._3Sb2o_mQ30IDRh0C72QUUu {
 	background-image: none !important;
+}
+
+/* Shelf Name */
+.DialogDropDown_CurrentDisplay {
+	color: var(--yourcolor) !important;
 }
 
 /* Shelf: Sort By */
