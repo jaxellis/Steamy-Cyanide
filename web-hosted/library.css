@@ -63,6 +63,11 @@
 	color: var(--foreground-color) !important;
 }
 
+/* Recent Games - First Game - Blur'd Background */
+._2d1hSvdpY5L2-GN1EnUb9Z {
+	background-color: var(--background-color) !important;
+}
+
 /*
 Game Action Buttons 
 Below contain any button related to taking action on the game (Play, Download, Stop)
