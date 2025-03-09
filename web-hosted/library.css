@@ -82,7 +82,11 @@ div:has(
 		> .SVGIcon_FlatArrow,
 		> svg[enable-background='new 0 0 100 100']
 	):not(.title-area-icon-inner) {
-	background: var(--yourcolor) !important;
+	background: var(--foreground-color) !important;
+
+	&:hover {
+		background: var(--foreground-lighter-color) !important;
+	}
 
 	/* Icons */
 	.SVGIcon_Play,
@@ -91,17 +95,17 @@ div:has(
 		> path,
 		> svg > path,
 		> polygon {
-			fill: var(--foreground-color) !important;
+			fill: var(--yourcolor) !important;
 		}
 	}
 	/* Update Icon */
 	svg[enable-background='new 0 0 100 100'] {
-		fill: var(--foreground-color) !important;
+		fill: var(--yourcolor) !important;
 	}
 
 	/* Stop "X" */
 	.SVGIcon_X_Line > line {
-		stroke: var(--foreground-color) !important;
+		stroke: var(--yourcolor) !important;
 	}
 }
 
@@ -115,7 +119,7 @@ svg[enable-background='new 0 0 100 100'] + div,
 .Play.contextMenuItem,
 .Stop.contextMenuItem,
 .Install.contextMenuItem {
-	color: var(--foreground-color) !important;
+	color: var(--yourcolor) !important;
 	font-weight: bold !important;
 }
 
