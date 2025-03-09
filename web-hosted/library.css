@@ -12,6 +12,7 @@
 /* "What's New" Container */
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background-image: none !important;
+
 	/* "What's New" Text */
 	._2hfibYuzyMOQ0sj2egsHh0 {
 		color: var(--yourcolor) !important;
@@ -119,6 +120,15 @@ div:has(
 
 	/* Stop "X" */
 	.SVGIcon_X_Line > line {
+		stroke: var(--yourcolor) !important;
+	}
+}
+
+/* Add L/R Arrow's 
+These are kept outside as to not apply a background
+*/
+.SVGIcon_DoubleArrow {
+	> polyline {
 		stroke: var(--yourcolor) !important;
 	}
 }
