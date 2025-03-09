@@ -39,3 +39,13 @@
 ._1VNuYHM6BPBOJspC6zPf5r:hover {
 	background-color: var(--foreground-color);
 }
+
+/* Completed */
+/* Main Container */
+/*!TODO fix theming for on:hover */
+._3Mbhnlk1Go2j8yCdjthzc7 {
+	button {
+		background: var(--foreground-color) !important;
+		color: var(--yourcolor) !important;
+	}
+}
