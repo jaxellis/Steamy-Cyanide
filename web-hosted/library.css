@@ -103,17 +103,20 @@ div:has(
 	.SVGIcon_X_Line > line {
 		stroke: var(--foreground-color) !important;
 	}
-	/* Button Text */
-	.SVGIcon_Play + div,
-	.SVGIcon_Download + div,
-	.SVGIcon_X_Line + div,
-	svg[enable-background='new 0 0 100 100'] + div,
-	.DesktopUI .Play.contextMenuItem,
-	.DesktopUI .Stop.contextMenuItem,
-	.DesktopUI .Install.contextMenuItem {
-		color: var(--foreground-color) !important;
-		font-weight: bold !important;
-	}
+}
+
+/* Button Text 
+Keep outside for Context Menu Text
+*/
+.SVGIcon_Play + div,
+.SVGIcon_Download + div,
+.SVGIcon_X_Line + div,
+svg[enable-background='new 0 0 100 100'] + div,
+.Play.contextMenuItem,
+.Stop.contextMenuItem,
+.Install.contextMenuItem {
+	color: var(--foreground-color) !important;
+	font-weight: bold !important;
 }
 
 /*
