@@ -1,8 +1,3 @@
-/* Bottom Queue */
-._1l0LmmqDUXH19SjfELddn7 {
-	background: var(--downloadspagebg) !important;
-}
-
 /* Top Bar
    Left Portion
    Right Portion */
@@ -30,6 +25,11 @@
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo {
 	border: 2px solid var(--yourcolor);
 	background: none !important;
+}
+
+/* Bottom Queue */
+._1l0LmmqDUXH19SjfELddn7 {
+	background: var(--downloadspagebg) !important;
 }
 
 /* "Unscheduled" Item */
