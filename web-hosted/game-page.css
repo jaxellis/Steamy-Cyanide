@@ -82,6 +82,24 @@
 		}
 	}
 
+	/* Post Game Summary - Achievements */
+	.SMWMsB-gz3WbYRK2HOm7i {
+		/* Title Text */
+		.P_gQ8X-yCsgXeXpP68KS0 {
+			color: var(--yourcolor) !important;
+		}
+
+		/* Achievements Contaianer */
+		._3fiHsLeD_6rtm6bM9lHlVL._2MKO5j24KqDdD-92hH5FXi {
+			background: radial-gradient(
+				100% 150% at 33% 45%,
+				color-mix(in srgb, var(--foreground-color) 60%, transparent) 0%,
+				color-mix(in srgb, var(--foreground-lighter-color) 50%, transparent)
+					100%
+			);
+		}
+	}
+
 	/* Status Update Input Box */
 	._1JlC29Ic6L-QvL-39X_d-X {
 		background: var(--foreground-color) !important;
@@ -119,5 +137,32 @@
 	/* Activity Card Achievements */
 	.NEMXhMlqXOCJwfgWlHXhT {
 		background: var(--foreground-color) !important;
+	}
+}
+
+/* Achievement Popup on Hover - Overlay */
+._2_lmTz0tA4NOSle5WaO1PZ {
+	/* Background Container */
+	.rYBZBWnNW6m-N9vX0Chce {
+		background: radial-gradient(
+			ellipse farthest-corner at 20% 30%,
+			var(--background-color) 0%,
+			var(--foreground-color) 100%
+		) !important;
+
+		/* Title + Description */
+		._1s_9cSxUjb4609MSH0EjWH > div {
+			color: var(--textcolor) !important;
+		}
+	}
+
+	/* Achievement Details (Unlock Date, % Players Unlocked) */
+	._2KA0p5xYePYygXUbjjsPzA {
+		background: linear-gradient(
+			to bottom,
+			color-mix(in srgb, var(--background-color) 80%, transparent) 5%,
+			color-mix(in srgb, var(--foreground-color) 70%, transparent) 95%
+		) !important;
+		color: var(--textcolor) !important;
 	}
 }
