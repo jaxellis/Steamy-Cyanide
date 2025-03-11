@@ -18,6 +18,11 @@
 			color: var(--textcolor) !important;
 		}
 	}
+
+	/* Earned->Total achievements bar */
+	._1FnTqlsi2_-TJf1d5apoS6 {
+		background: var(--yourcolor) !important;
+	}
 }
 
 /* Quick Links Container */
