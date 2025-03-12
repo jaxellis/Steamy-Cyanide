@@ -154,11 +154,6 @@
 			var(--background-color) 0%,
 			var(--foreground-color) 100%
 		) !important;
-
-		/* Title + Description */
-		._1s_9cSxUjb4609MSH0EjWH > div {
-			color: var(--textcolor) !important;
-		}
 	}
 
 	/* Achievement Details (Unlock Date, % Players Unlocked) */
@@ -170,4 +165,9 @@
 		) !important;
 		color: var(--textcolor) !important;
 	}
+}
+
+/* Achievement Title + Description */
+._1s_9cSxUjb4609MSH0EjWH > div {
+	color: var(--textcolor) !important;
 }
