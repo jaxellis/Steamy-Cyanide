@@ -14,6 +14,7 @@
 			&:hover {
 				background-color: var(--foreground-lighter-color) !important;
 			}
+
 			/* Home Button Steam Icon SVG */
 			._1ooROmAgkhoBH_o65yl9dJ > svg {
 				fill: var(--yourcolor) !important;
@@ -22,6 +23,29 @@
 			/* Category Button Squares Grid */
 			._2tyaVs9BpqcW068aaOrO56 {
 				background-color: var(--yourcolor) !important;
+			}
+		}
+	}
+
+	/* Search + Filters Container */
+	._20QAC4WMXm8qFE8waUT5oo {
+		background-color: var(--foreground-color) !important;
+
+		/* Search Input */
+		input {
+			color: var(--textcolor) !important;
+			&:hover {
+				background-color: var(--foreground-lighter-color) !important;
+			}
+		}
+
+		/* Filter Button */
+		.vCCmYvn9yQ_V8CpKupllU {
+			&:hover {
+				background-color: var(--foreground-lighter-color) !important;
+			}
+			svg > path {
+				fill: var(--yourcolor) !important;
 			}
 		}
 	}
