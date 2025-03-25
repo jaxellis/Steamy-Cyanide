@@ -79,14 +79,27 @@
 }
 
 /* SVG List Filters | Recent/Ready to play */
-.SVGIcon_SortBy,
-.SVGIcon_ReadyToPlay {
-	fill: var(--yourcolor) !important;
+/* .SVGIcon_SortBy, .SVGIcon_ReadyToPlay */
+._3mzKdQXht__YHo6PX1LmB6 {
+	svg {
+		fill: var(--foreground-lighter-color) !important;
 
-	circle,
-	path,
-	polyline {
-		stroke: var(--yourcolor) !important;
+		circle,
+		path,
+		polyline {
+			stroke: var(--foreground-lighter-color) !important;
+		}
+	}
+
+	/* Active */
+	&._1QFFkxM5hw-43miIiylbwq svg {
+		fill: var(--yourcolor) !important;
+
+		circle,
+		path,
+		polyline {
+			stroke: var(--yourcolor) !important;
+		}
 	}
 }
 
