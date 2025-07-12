@@ -1571,7 +1571,6 @@ a.forum_comment_action:hover {
 	border-radius: var(--border4) !important;
 }
 .playerAvatar.profile_header_size.in-game {
-	max-width: 40% !important;
 	float: left !important;
 	margin-right: 18px !important;
 	position: relative !important;
@@ -1591,7 +1590,6 @@ a.forum_comment_action:hover {
 	filter: none !important;
 }
 .playerAvatar.profile_header_size.online {
-	max-width: 40% !important;
 	float: left !important;
 	margin-right: 18px !important;
 	position: relative !important;
@@ -2648,9 +2646,9 @@ body.v6 #footer .rule {
 	border-radius: var(--border4) !important;
 }
 .game_page_autocollapse_ctn {
-    background: var(--realblack) !important;
-    border-radius: var(--border4) !important;
-    padding-left: 4px !important;
+	background: var(--realblack) !important;
+	border-radius: var(--border4) !important;
+	padding-left: 4px !important;
 	padding-right: 4px !important;
 }
 .game_page_autocollapse_ctn.collapsed {
@@ -3167,7 +3165,9 @@ a.pagebtn {
 	border-top-right-radius: var(--border4) !important;
 	margin-bottom: 0 !important;
 }
-.forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {
+.forum_newtopic_box,
+.forum_formarea_box,
+.forum_newtopic_header {
 	background-color: var(--realblack) !important;
 }
 .forum_newtopic_box {
